@@ -1,4 +1,4 @@
-# Module 1 : Lab 1.4 – Tables
+# Lab 1.4 – Tables
 
 ## Scenario
 

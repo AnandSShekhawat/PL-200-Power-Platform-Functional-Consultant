@@ -1,4 +1,4 @@
-#  Module 3 : Lab 3.2 – Views
+# Lab 3.2 – Views
 
 ## Scenario
 

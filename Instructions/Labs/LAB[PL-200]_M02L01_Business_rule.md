@@ -1,4 +1,4 @@
-# Module 2 : Lab 2.1 – Business rules
+# Lab 2.1 – Business rules
 
 ## Scenario
 

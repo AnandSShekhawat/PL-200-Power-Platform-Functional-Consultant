@@ -1,4 +1,4 @@
-# Module 6 : Lab 6.1 – Cloud flows
+# Lab 6.1 – Cloud flows
 
 ## Scenario
 

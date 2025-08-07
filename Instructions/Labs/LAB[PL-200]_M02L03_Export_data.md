@@ -1,4 +1,4 @@
-# Module 2 : Lab 2.3 - Export data
+# Lab 2.3 - Export data
 
 ## Scenario
 

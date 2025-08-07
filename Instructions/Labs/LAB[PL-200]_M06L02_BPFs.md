@@ -1,4 +1,4 @@
-# Module 6 : Lab 6.2 – Business process flows
+# Lab 6.2 – Business process flows
 
 ## Scenario
 

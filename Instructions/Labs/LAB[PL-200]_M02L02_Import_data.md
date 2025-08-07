@@ -1,4 +1,4 @@
-# Module 2 : Lab 2.2 - Import data
+# Lab 2.2 - Import data
 
 ## Scenario
 
