@@ -1,4 +1,4 @@
-# Lab 7 – Power Virtual Agents
+# Lab 7: Power Virtual Agents
 
 ## Scenario
 

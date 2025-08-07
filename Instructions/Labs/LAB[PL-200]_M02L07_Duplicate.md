@@ -1,4 +1,4 @@
-# Lab 2.7 - Duplicate detection
+# Lab 2.7: Duplicate detection
 
 ## Scenario
 

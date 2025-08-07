@@ -1,4 +1,4 @@
-# Lab 2.8 - Audit 
+# Lab 2.8: Audit 
 
 ## Scenario
 

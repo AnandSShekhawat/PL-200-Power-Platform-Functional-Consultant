@@ -1,4 +1,4 @@
-# Lab 2.5 – Users and Teams
+# Lab 2.5: Users and Teams
 
 ## Scenario
 

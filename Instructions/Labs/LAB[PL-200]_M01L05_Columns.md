@@ -1,4 +1,4 @@
-# Lab 1.5 – Columns
+# Lab 1.5: Columns
 
 ## Scenario
 

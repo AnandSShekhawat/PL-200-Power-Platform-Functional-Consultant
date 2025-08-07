@@ -1,4 +1,4 @@
-# Lab 3.1 – Forms
+# Lab 3.1: Forms
 
 ## Scenario
 

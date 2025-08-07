@@ -1,4 +1,4 @@
-# Lab 1.3 - Import solution
+# Lab 1.3: Import solution
 
 ## Scenario
 

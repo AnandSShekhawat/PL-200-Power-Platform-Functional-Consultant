@@ -1,4 +1,4 @@
-# Lab 1.6 – Relationships
+# Lab 1.6: Relationships
 
 ## Scenario
 

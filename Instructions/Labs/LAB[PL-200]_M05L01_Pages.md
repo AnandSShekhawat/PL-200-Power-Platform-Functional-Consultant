@@ -1,4 +1,4 @@
-# Lab 5.1 – Build a Power Pages portal
+# Lab 5.1: Build a Power Pages portal
 
 ## Scenario
 
