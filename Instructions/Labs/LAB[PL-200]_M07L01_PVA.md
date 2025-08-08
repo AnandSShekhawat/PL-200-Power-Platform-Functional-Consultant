@@ -1,4 +1,4 @@
-# Module 7 : Lab 7.1 – Power Virtual Agents
+# Lab 7: Power Virtual Agents
 
 ## Scenario
 
@@ -7,6 +7,7 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 In this practice lab, you will review the existing chatbot. You will explore and enhance the bot.
 
 ## Lab objectives
+
 In this lab, you will perform:
 
 + Exercise 1: Acquire a PVA trial

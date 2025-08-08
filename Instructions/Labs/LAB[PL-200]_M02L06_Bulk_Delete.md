@@ -1,4 +1,4 @@
-# Module 2 : Lab 2.6 - Bulk delete data
+# Lab 2.6: Bulk delete data
 
 ## Scenario
 

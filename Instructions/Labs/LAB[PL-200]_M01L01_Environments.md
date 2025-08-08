@@ -1,4 +1,4 @@
-# Module 1 : Lab 1.1 - Create environments
+# Lab 1.1: Create environments
 
 ## Scenario
 

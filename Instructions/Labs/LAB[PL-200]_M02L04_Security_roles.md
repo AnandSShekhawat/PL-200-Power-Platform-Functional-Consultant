@@ -1,4 +1,4 @@
-# Module 2 : Lab 2.4 - Security roles
+# Lab 2.4: Security roles
 
 ## Scenario
 
