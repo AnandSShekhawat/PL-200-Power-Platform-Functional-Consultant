@@ -18,58 +18,74 @@ In this exercise, you will create a *Development* environment that you will do t
 
 ### Task 1.1 – Create development environment
 
-1.  Navigate to the Power Platform admin center https://aka.ms/ppac  and sign in with your Microsoft 365 credentials if prompted again.
+1.  Navigate to the Power Platform admin center `https://aka.ms/ppac`  and sign in with your Microsoft 365 credentials if prompted again.
+     
+    ![New environment.](../media/pl200-p3t1p1.png) 
 
-1.  Select **Get Started** or close the Welcome pop-up.
-   
-     ![New environment.](../media/ss1pl-200.png) 
+1.  Select **Manage (1)** and then select **Environments (2)** from the left navigation pane. There should be two environments, There should be a two environment, **OTU WA MOC XXXXXX**(default) and **ODL_User<inject key="DeploymentID"></inject>** (Developer).
 
-1.  Select **Environments** from the left navigation pane. There should be a single environment, OTU WA MOC XXXXXX(default).
+    ![New environment.](../media/pl200-p3t1p2.png)
 
-1.  Select **+ New**.
+1. Select the **ODL_User<inject key="DeploymentID"></inject>** environment by selecting the **ellipsis (...)** **(1)** and from the menu select **Settings (2)**.
 
-    ![Environment in the Power Platform admin center.](../media/ss-3pl-200.png)
+    ![New environment.](../media/pl200-p3t1p3.png)
 
-1.  In the **Name** text box, enter **[my initials] Development**. (Example: PL Development).
+1. Explore the different areas in **Settings** that you may be interested in but do not make any changes yet.
 
-1.  In the **Type** drop down, select **Developer**.
+### Task 1.2 - Create the production environment
 
-1.  Leave all other selections as default and select **Next**.
+1. Navigate to Environments in the Power Platform admin center by selecting **Environment** from the left navigation pane.
 
-     ![New environment.](../media/pg-1ss-2-1.png)
+    ![](../media/pl200-p3t2p1.png)
 
-1.  On the **Add Dataverse** tab, select **Save**.
+1.  Now select **+ New**.
 
-    ![New environment.](../media/ss7.png)
+    ![](../media/pl200-p3t2p2.png)
 
-1.  Your **Development** environment should now show in the list of environments.
+1.  In the **Name** text box, enter **[my initials] Development (1)**. (Example: PL Development).
 
-      ![Environment in the Power Platform admin center.](../media/pg-2ss-3.png)
+1.  In the **Type** drop down, select **Developer (2)**.
 
-1. Your Development environment may take a few minutes to provision. Select **Refresh** if needed. When your environment **State** shows as **Ready**, select your **Development** environment by clicking on the ellipses (...) next to its name to expand the drop down menu and select **Settings**.
+1.  Leave all other selections as default and select **Next (3)**.
 
-     ![Environment in the Power Platform admin center.](../media/pg-2ss-4.png)
-
-1.  Explore the different areas in **Settings** that you may be interested in but do not make any changes yet.
-   
-### Task 1.2 – Create live environment
-
-1.  Navigate to environments in the Power Platform admin center <https://admin.powerplatform.microsoft.com/environments>.
-
-1.  Select **+ New**. 
-
-1.  In the **Name** text box, enter **[my initials] Live**. (Example: PL Live).
-
-1.  In the **Type** drop-down, select **Developer**.
-
-1.  Leave all other selections as default and select **Next**.
+    ![](../media/pl200-p3t2p3.png)
 
 1.  On the **Add Dataverse** tab, select **Save**.
 
-1.  You should now see three environments; OTU WA MOC XXXXXX (default), Development, and Live.
+    ![New environment.](../media/pl200-p3t2p4.png)
 
-    ![Environments.](../media/pg-2ss-5-1.png)
+1.  Wait while the Production environment takes a few minutes to provision. Select **Refresh** if needed. It is finished when the State shows as **Ready**.
 
+      ![Environment in the Power Platform admin center.](../media/pl200-p3t2p5.png)
+
+1. You should now see the following environments:
+
+    ![Environment in the Power Platform admin center.](../media/pl200-p3t2p6.png)
+
+    >**Note:** You will use the **ODL_User<inject key="DeploymentID"></inject>** environment for all customizations in the labs. The **Production** environment will act as your live environment to import completed solutions into.
+
+### Task 1.3 – Verify Classic solution explorer is enabled
+
+1. Navigate to environments in the Power Platform admin center `https://admin.powerplatform.microsoft.com/manage/environments`.
+
+1. Select the **ODL_User<inject key="DeploymentID"></inject>** environment. Click on the **ellipses (...) (1)** next to its name to expand the drop down menu and select **Settings (2)**.
+
+     ![Environment in the Power Platform admin center.](../media/pl200-p3t3p1.png)
+
+1.  Expand **Product (1)** and select **Behavior (2)**.
+
+    ![](../media/pl200-p3t3p2.png)
+
+1. Under **Display behavior**, verify that Show the **Switch to classic buttons in Power Apps** is set to **On**.
+
+    ![](../media/pl200-p3t3p3.png)
+
+1. If necessary, select **Save**. Otherwise, click on **Cancel** and then select **Confirm**.
+
+    ![](../media/pl200-p3t3p4.png)
+
+    ![](../media/pl200-p3t3p5.png)
+   
 > **Note:** You will use the *Development* environment for all customizations in the labs. The *Live* environment will act as your test/production environment.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:

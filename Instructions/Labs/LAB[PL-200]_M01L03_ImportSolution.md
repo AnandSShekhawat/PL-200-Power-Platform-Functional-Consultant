@@ -36,30 +36,151 @@ In this lab, you will perform:
 
 In this exercise, you will import the main solution into the **Development** environment.
 
-
 ### Task 1.1 – Main solution
 
 1.  Navigate to `https://make.powerapps.com`
 
-1.  Make sure you are in your **Development** environment.
+1.  Click on **Environment (1)** from the top right corner and make sure you are in your **PL Development (2)** environment.
 
-     ![](../media/ex1(1).png)
+     ![](../media/pl200-p5t1p1.png)
     
-1.  Select **Solutions** and then select **Import solution**.
+1.  Select **Solutions (1)** and then select **Import solution (2)**.
 
-     ![](../media/ex1(2).png)
+     ![](../media/pl200-p5t1p2.png)
 
-1.  Select **Browse** and locate the **FabrikamEnvironmental_1_1_11_3.zip** file and select **Open**. Select **Next**.
+1.  Select **Browse (1)** and in the Open window navigate to `C:\Allfiles\Labs` **(2)** and locate the **FabrikamEnvironmental_1_1_11_3.zip (3)** file and select **Open (4)**. Select **Next (5)**.
 
-    > **Note:** This file is located in the C:\Allfiles\Labs folder on your machine.
+     ![](../media/pl200-p5t1p3.png)
 
-     ![](../media/ex1(3).png)
- 
+     ![](../media/pl200-p5t1p4.png)
+
  1.  Select **Next** again.
 
-     ![](../media/exer1(4).png)
+     ![](../media/pl200-p5t1p5.png)
 
-1.  You need to create connections for the solution.
+1. Wait while connections are created and select **Next**.
+
+     ![](../media/pl200-p5t1p6.png)
+
+1. Select **Import**. The solution will import in the background. This may take a few minutes.
+
+     ![](../media/pl200-p5t1p7.png)
+
+     ![](../media/pl200-p5t1p8.png)
+
+     >**Note:** Wait until the solution has finished importing before continuing to the next step.
+
+1. When the solution has imported successfully, open the **Fabrikam Environmental** solution.
+
+     ![](../media/pl200-p5t1p9.png)
+
+1. In the solution, select the **Overview** page.
+
+     ![](../media/pl200-p5t1p10.png)
+
+1. Select **Publish all customizations**.
+
+     ![](../media/pl200-p5t1p11.png)
+
+## Task 1.2 - Set preferred solution
+
+1.  Navigate to `https://make.powerapps.com`
+
+1. Make sure you are in the **PL Development** environment.
+
+1. Select **Solutions (1)** and select **Manage (2)** in the Current preferred solution tile.
+
+     ![](../media/pl200-p5t1p12.png)
+
+1. Select **Fabrikam Environmental (contoso) (1)** and click **Apply (2)**.
+
+     ![](../media/pl200-p5t1p13.png)
+
+## Exercise 2 - Import data
+
+In this exercise, you will import data the into the **PL Environment** environment using the Configuration Migration Tool and import Outcome rows into your Microsoft Dataverse environment using a dataflow.
+
+### Task 2.1: Download and install Power Platform CLI
+
+1.  Download the Power Platform CLI from `https://aka.ms/PowerAppsCLI`, then from the browser’s **Downloads** section select **Open file** for **powerapps-cli-1.0.msi** to start the installation.
+
+     ![](../media/pl200-p5t2p1.png)
+
+1.  In the setup wizard, accept the license agreement **(1)**, click **Install (2)**, and follow the prompts to complete the installation, then select **Finish**.
+
+     ![](../media/pl200-p5t2p2.png)
+
+1. Use the Start menu search to type **Command Prompt (1)**, then select **Command Prompt (2)** to open it. 
+
+     ![](../media/pl200-p5t2p3.png)
+
+1. Verify Power Apps CLI is installed by running the following command:
+
+    ```
+    pac install latest
+    ```
+
+    ![](../media/pl200-p5t2p4.png)
+
+### Task 2.2 - Import data with the Configuration Migration Tool
+
+1. Open the **AzureCreds (1)** file from the desktop and note the **username and password (2)**, as you will need them in the subsequent steps.
+
+     ![](../media/pl200-p5t2p6(1).png)
+
+     ![](../media/pl200-p5t2p6(2).png)
+
+1.  In the Command prompt, launch the **Configuration Migration Tool** using the following command:
+
+    ```
+    pac tool cmt
+    ``` 
+
+1.  Select **Import data (1)** and the select **Continue (2)**.
+
+     ![](../media/pl200-p5t2p5.png)
+
+1. Configure the login settings as follows:
+
+     * Select **Office 365 (1)** for *Deployment Type*.
+     * Check **Display list of available organizations (2)**.
+     * Check **Show Advanced (3)**.
+     * Select **Don't know (4)** for *Online Region*.
+     * **Enter your credentials**: Paste the credentials from the **AzureCreds** file on the desktop
+     * Select **Login (7)**.
+     
+          ![](../media/pl200-p5t2p6.png)
+
+1.  Choose the **PL Development (1)** environment and then select **Login (2)**.
+
+     ![](../media/pl200-p5t2p7.png)
+
+1.  Select the **ellipsis (...) (1)**, navigate to `C:\AllFiles\Labs` **(2)**, choose the **Fabrikam Environment data (3)** zip file, and click **Open (4)**.
+
+     ![](../media/pl200-p5t2p8.png)
+
+1. The data file will be validated. Select **Import Data**. The import process will take approximately a minute.
+
+     ![](../media/pl200-p5t2p9.png)
+
+1.  Select **Exit**.
+
+     ![](../media/pl200-p5t2p10.png)
+
+1.  Select the **X** to close the Configuration Migration Tool.
+
+### Task 2.3 – Load Outcome Excel file to OneDrive
+
+1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+
+1.  Select the **Waffle** button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Select **Your OneDrive is ready** when you see it on the screen.)
+
+1.  Select **+ Create or upload** and select **Files upload**.
+
+1.  Locate and select the **Outcome data.xlsx** file and select **Open**.
+
+    > **Note:** This file should be located in the Documents\PL-200 folder on your machine.
+
 
 1.  For the Approvals connection, in the **Select a connection** drop-down, choose **+ New connection**.
 

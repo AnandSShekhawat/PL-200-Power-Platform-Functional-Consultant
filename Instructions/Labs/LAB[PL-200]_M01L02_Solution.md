@@ -16,32 +16,47 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 
 ### Task 1.1 – Maker portal
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com> and sign in with your Microsoft 365 credentials if prompted again.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com` and sign in with your Microsoft 365 credentials given below if prompted again.
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 1. If you are prompted for a **Phone number** enter `0123456789` and select **Submit**.
 
-1. Switch environments by using the Environment Selector in the upper right corner of the screen. The *Contoso (default)* environment will be selected by default.
+1. Switch environments by using the Environment Selector in the upper right corner of the screen.
 
-1. Select your **Development** environment from the list.
+    ![](../media/pl200-p4t1p1.png)
 
-    ![Select Development environment in the Power Apps maker portal.](../media/ss-1.0.0.0.png)
+1. If **ODL_User<inject key="DeploymentID"></inject>** environment is not selected then click on **Environment (1)** and then select the **ODL_User<inject key="DeploymentID"></inject> (2)** environment from the list.
+    
+    ![](../media/pl200-p4t1p2.png)
 
-1. Select **Apps** from the left navigation pane. You should see some default system apps listed, Solution Health Hub etc. You may also see Fabrikam Milestones and Portal Management apps being provisioned.
+1. Select **Apps (1)** from the left navigation pane and then select **All (2)**. You should see several apps including, Power Platform Environment Settings, Solution Health Hub, and Power Pages Management listed.
 
-1. Select **Tables** from the left navigation pane. You should see some recommended tables from the Common Data Model.
+    ![](../media/pl200-p4t1p3.png)
 
+1. Select **Tables** from the left navigation pane. You should see the standard tables from the Common Data Model including Account and Contact.
 
-### Task 1.2 – Create a publisher
+    ![](../media/pl200-p4t1p4.png)
 
-1. Select **Solutions** from the left navigation pane. Click on **New Solution**
+### Task 1.2 – Create solution and publisher
+
+1. Select **Solutions** from the left navigation pane. You should see several solutions including the Default Solution and the Common Data Services Default Solution.
   
-    ![List of solutions in Maker portal.](../media/ss-2.png)
+    ![](../media/pl200-p4t2p1.png)
 
-1. Select the **Publishers** tab.
+1. Select **+ New solution**.
 
-1. Select **+ New publisher**.
+    ![](../media/pl200-p4t2p2.png)
 
-    ![List of publishers in Maker portal.](../media/sss-66.png)
+1. In the **Display name** text box, enter `PL Practice` **(1)** solution.
+
+1. Verify that **Name** is automatically populated.
+
+1. Select **+ New publisher (2)** below the Publisher drop-down.
+
+    ![](../media/pl200-p4t2p3.png)
 
 1. In the **Display name (1)** text box, enter `Fabrikam`
 
@@ -51,64 +66,59 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 
 1. Select **Save (4)**.
 
-   ![New publisher.](../media/ss-777.png)
+   ![](../media/pl200-p4t2p4.png)
 
+1. In the **Publisher** drop-down, select **Fabrikam (fabrikam) (1)**.
 
-### Task 1.3 – Create a solution
+1. Select **Create (2)**.
 
-1. On the **Solutions** page, in the **Display name** text box, enter **[my initials] Practice solution** (Example : PL Practice). The Name text box should be automatically populated.
-
-1. In the **Publisher** drop-down, select **Fabrikam**.
-
-1. Select **Create**.
-
-   ![New solution.](../media/sss-666.png)
+    ![](../media/pl200-p4t2p5.png)
 
 ## Exercise 2 - Add components to the solution
 
-In this exercise, you will access the Power Apps maker portal and select the **Development** environment.
+In this exercise, you will add an existing table to the solution.
 
 ### Task 2.1 – Add table
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the Development environment.
+1. Make sure you are in the **ODL_User<inject key="DeploymentID"></inject>** environment.
 
-1. Select **Solutions**.
+1. Select **Solutions (1)** from the left pane.
 
-1. Select the **Practice solution** you created in the previous exercise.
+1. Select the **Practice solution (2)**, from the previous exercise.
 
-    ![Practice solution.](../media/ss-44.png)
+    ![](../media/pl200-p4t3p1.png)
 
-1. Select **Add existing** and choose **Table**.
+1. Select **Add existing (1)** and choose **Table (2)**.
 
-    ![Add existing tables.](../media/task2-5.png)
+    ![](../media/pl200-p4t3p2.png)
 
-1. Select the **Account** table.
+1. Select the **Account (1)** table and then click on **Next (2)**.
 
-    ![Add tables.](../media/task2-6.png)
+    ![](../media/pl200-p4t3p3.png)
 
-1. Select **Next**. 
+1. Under the **Account** table, select the **Edit objects** link.
 
-1. Under the **Account** table, select the **Select objects** link.
+    ![](../media/pl200-p4t3p4.png)
 
-1. In the **Columns** tab, select the **Account Number** column.
+1. In the **Columns** tab, select the following column **Account Number**.
 
-1. Select the **Views** tab.
+    ![](../media/pl200-p4t3p5.png)
 
-1. Select the **Active Accounts** view.
+1. Select the **Views (1)** tab and select the **Active Accounts (2)** view.
 
-1. Select the **Forms** tab.
+    ![](../media/pl200-p4t3p6.png)
 
-1. Select the **Account** form.
+1. Select the **Forms (1)** tab, then select the **Account (2)** form and then click on **Add (3)**.
 
-1. Select **Add**.
+    ![](../media/pl200-p4t3p7.png)
 
-    > **Note:** You should have selected 1 view, 1 form, and 1 column for the **Account** table.
+    > **Note:** You should have selected 1 view, 1 form, and 1 column for the Account table.
 
-1. Select **Add**.
-   
-     ![Add table objects.](../media/ss-15.png)
+1. On the **Selected tables** window, select **Add**.
+
+    ![](../media/pl200-p4t3p8.png)
 
 ### Review
 In this lab, you created publisher and solution and also added components to the solution.
