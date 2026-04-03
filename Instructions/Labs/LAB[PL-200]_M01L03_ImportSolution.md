@@ -173,146 +173,116 @@ In this exercise, you will import data the into the **PL Environment** environme
 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1.  Select the **Waffle** button in the upper left corner to change applications and select **OneDrive**. (It may take a moment for your OneDrive to be set up. Select **Your OneDrive is ready** when you see it on the screen.)
+1.  Select the **Waffle (1)** button in the upper left corner to change applications and select **OneDrive (2)**. (It may take a moment for your OneDrive to be set up. Select **Your OneDrive is ready** when you see it on the screen.)
 
-1.  Select **+ Create or upload** and select **Files upload**.
+     ![](../media/pl200-p5t2p11.png)
 
-1.  Locate and select the **Outcome data.xlsx** file and select **Open**.
+1.  It will open in a new tab in the browser, select **+ Create or upload** and select **Files upload**.
 
-    > **Note:** This file should be located in the Documents\PL-200 folder on your machine.
+1.  Navigate to `C:\Allfiles\Labs` **(2)** and select the **Outcome data.xlsx (3)** file and select **Open (4)**.
 
+    ![](../media/pl200-p5t2p12(1).png)
 
-1.  For the Approvals connection, in the **Select a connection** drop-down, choose **+ New connection**.
+    ![](../media/pl200-p5t2p12.png)
 
-     ![](../media/exerc1(5).png)
-    
-1.  A new tab will open in the browser. Select **Create**.
+### Task 2.4 – Create a dataflow to import Outcomes
 
-     ![](../media/ex1(6).png)
+1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1.  Switch back to the tab where you are importing the solution and select **Refresh**.
+1.  Make sure you are in the **PL Development** environment.
 
-     ![](../media/ex1(7).png)
+1.  Select **Tables (1)** from the left navigation menu.
 
-1.  For the Microsoft Dataverse connection, in the **Select a connection** drop-down, choose **+ New connection**.
+1.  Select **Import (2)** from the action menu, then select **Import data with Dataflows (3)**, and then select **Excel workbook (4)** as the source.
 
-1.  A new tab will open in the browser. Select **Create**. If prompted, sign in with your Microsoft 365 credentials.
+     ![](../media/pl200-p5t2p13.png)
 
-1.  Switch back to the tab where you are importing the solution and select **Refresh**.
+     ![](../media/pl200-p5t2p14.png)
 
-1.  Both connections should now be configured. Select **Import**.
+1.  Select **Browse OneDrive...**, if prompted, sign in with your Microsoft 365 credentials.
 
-     ![](../media/ex1(8).png)
-    
-1. The solution will import in the background. This may take a few minutes.
+     ![](../media/pl200-p5t2p15.png)
 
-    > **Alert:** Wait until the solution has finished importing before continuing to the next step.
+1.  Select the **Outcome data.xlsx (1)** file and then select **Select (2)**.
 
-1.  When the solution has imported successfully, open the **Fabrikam Environmental** solution.
-
-     ![](../media/ex1(9).png)
-
-1.  In the solution, select the **Overview** page. Select **Publish all customizations**. 
-
-     ![](../media/ex1(10).png)
-
-### Task 1.2 – Power Virtual Agents solution
-
-1.  Navigate to `https://make.powerapps.com`
-
-1.  Make sure you are in your **Development** environment.
-
-     ![](../media/ex1(1).png)
-
-1.  Select **Solutions**.
-
-1.  Select **Import solution**.
-
-1.  Select **Browse**, locate the **FabrikamChatbot_1_1_1_1.zip** file and select **Open**.
-
-    > **Note:** This file is located in the C:\Allfiles\Labs folder on your machine.
+     ![](../media/pl200-p5t2p17.png)
 
 1.  Select **Next**.
 
-     ![](../media/ex1(11).png)
+1.  Check the box next to **Table1 (1)**.
 
-1.  Select **Import**. The solution will import in the background.
+1.  Select **Next (2)**. Do not navigate away from this page.
 
-## Exercise 2 - Import data
+     ![](../media/pl200-p5t2p16.png)
 
-In this exercise, you will import data the into the **Development** environment using the Configuration Migration Tool.
+1.  Select the first three **Do Not Modify** columns. 
 
+     >**Note:** You can hold **Ctrl** on the keyboard and click with the mouse to select multiple columns.
 
-### Task 2.1 - Import data
+1.  On the **Home (1)** tab of the ribbon, use the **carrot icon (2)** at the far right side of the ribbon to expand the Home tab buttons. Select **Remove columns (3)** drop-down and select **Remove columns (4)** to remove these three columns.
 
-1.  In your lab virtual machine, open **File Explorer**.
+     ![](../media/pl200-p5t2p18.png)
 
-1.  Navigate to **C:\Allfiles\Labs\ConfigurationMigration**.
+1.  Select the **Estimated Completion Date** column.
 
-1.  Double-click on **DataMigrationUtility**
-   
-1.  Choose **Import data**. Select **Continue**.
+1.  Right-click on the **Estimated Completion Date (1)** column and select **Replace values... (2)**.
 
-     ![](../media/ex2(1).png)
+     ![](../media/pl200-p5t2p19.png)
 
-1.  Select **Office 365** for **Deployment Type**.
+1.  Enter `null` for **Value to find (1)**.
 
-1.  Check the **Display list of available organizations** box.
+1.  For **Replace with (2)**, enter a date in three months time. Use date format **MM/DD/YYYY**.
 
-1.  Enter your Microsoft 365 tenant credentials and  select **Login**.
+1.  Select **OK (3)**. The Estimated Completion Dates should show the date chosen.
 
-     ![](../media/ex2(2).png)
+     ![](../media/pl200-p5t2p20.png)
 
-1.  Choose your **Development** environment.
+1.  Select **Next**.
 
-1.  Select **Login**.
+1.  Select **Load to existing table (1)**.
 
-     ![](../media/ex2(3).png)
+1.  Select **contoso_outcome (2)** from the **Destination table** drop-down.
 
-1.  Select the ellipses (...) and locate and select **Fabrikam Environment data.zip** file.
+     ![](../media/pl200-p5t2p21.png)
 
-    > **Note:** This file is located in the C\AllFiles\Labs folder on your machine.
+1.  Expand **Column mapping (3)** and check if **Estimated Completion Date**, **Goal**, **Outcome Description**, **Outcome Title**, and **Target Aim** are mapped **(4)** to their corresponding destination columns.
 
-1.  Select **Open**. The data file will be validated.
+1.  Select **Next (5)**.
 
-1.  Select **Import Data**. The import process will take approximately a minute.
+     ![](../media/pl200-p5t2p22.png)
 
-     ![](../media/ex2(4).png)
+1.  Select **Refresh manually**.
 
-1.  Select **Exit**.
+1.  Select **Publish**.
 
-1.  Select the **X** to close the Configuration Migration Tool.
+### Task 2.5 – Test Your work
 
+1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-## Exercise 3 - Sign up for Power Pages
+1.  Select **Tables**.
 
-In this exercise, you will provision a Power Pages site. This can take a while, so you will follow these steps to start the provisioning process in the background while you progress through your labs. You will configure the site in a future lab.
+1.  Locate and open the **Outcome** table.
 
-### Task 3.1 - Create a Power Pages site
+1.  You should see all the imported **Outcome** rows.
 
-1.  Navigate to the Power Pages portal `https://make.powerpages.microsoft.com/` and sign in with your Microsoft 365 credentials if prompted.
+1.  In the Maker portal, select **Apps (1)** from the left navigation.
 
-1.  Use the Environment selector to switch to your **Development** environment.
+1.  For the **Environmental Project Delivery** model-driven app, select the ellipsis **(...) (2)** and select **Play (3)**, signing in with your Microsoft 365 credentials if prompted.
 
-     ![](../media/ex3(1).png)
+     ![](../media/pl200-p5t2p23.png)
 
-1.  Select **Get started**.
+1.  In the left navigation of the app, select **Outcomes**.
 
-1.  If you are asked about your experience creating websites, select **Skip**.
+1.  The imported **Outcome** records should be in the view.
 
-1.  Choose the default design template, **Starter layout 1**, and select **Choose this template**.
+     ![](../media/pl200-p5t2p24.png)
 
-     ![](../media/ex3(2).png)   
+1.  Select the title to open one of the imported **Outcome** records.
 
-1.  Enter `Fabrikam Milestones` for **Give your site a name**.
+1.  Verify the **Estimated Completion Date** column is set to the future date.
 
-1.  Use the autogenerated web address.
+1.  Verify the **Outcome Lifecycle** business process flow is visible at the top of the form.
 
-     ![](../media/ex3(3).png)
-
-1.  Select **Done**.
-
-    > The portal site will deploy. It can take around an hour for your site to fully deploy.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
