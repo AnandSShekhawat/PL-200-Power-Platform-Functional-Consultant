@@ -28,7 +28,7 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 
     ![](../media/pl200-p4t1p1.png)
 
-1. If **ODL_User<inject key="DeploymentID"></inject>** environment is not selected then click on **Environment (1)** and then select the **ODL_User<inject key="DeploymentID"></inject> (2)** environment from the list.
+1. If **PL Development** environment is not selected then click on **Environment (1)** and then select the **PL Development (2)** environment from the list.
     
     ![](../media/pl200-p4t1p2.png)
 
@@ -82,7 +82,7 @@ In this exercise, you will add an existing table to the solution.
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **ODL_User<inject key="DeploymentID"></inject>** environment.
+1. Make sure you are in the **PL Development** environment.
 
 1. Select **Solutions (1)** from the left pane.
 
