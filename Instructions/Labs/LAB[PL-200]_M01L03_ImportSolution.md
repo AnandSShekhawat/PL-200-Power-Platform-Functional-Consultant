@@ -177,13 +177,13 @@ In this exercise, you will import data the into the **PL Environment** environme
 
      ![](../media/pl200-p5t2p11.png)
 
-1.  It will open in a new tab in the browser, select **+ Create or upload** and select **Files upload**.
+1.  It will open in a new tab in the browser, select **+ Create or upload (1)** and select **Files upload (2)**.
 
-1.  Navigate to `C:\Allfiles\Labs` **(2)** and select the **Outcome data.xlsx (3)** file and select **Open (4)**.
-
-    ![](../media/pl200-p5t2p12(1).png)
-
-    ![](../media/pl200-p5t2p12.png)
+1.  Navigate to `C:\Allfiles\Labs` **(3)** and select the **Outcome data.xlsx (4)** file and select **Open (5)**.
+     
+     ![](../media/pl200-p5t2p11(1).png)
+     
+     ![](../media/pl200-p5t2p12.png)
 
 ### Task 2.4 – Create a dataflow to import Outcomes
 

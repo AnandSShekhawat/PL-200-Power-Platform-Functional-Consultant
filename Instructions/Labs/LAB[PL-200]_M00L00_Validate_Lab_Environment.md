@@ -44,7 +44,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
     ![](../media/pl200-p2t1p5.png)
 
-8.  At the top right of the screen, verify that the **Environment** is set to **ODL_User<inject key="DeploymentID"></inject> (1)**. This is where you will be working for the entirety of this lab. If it is not, select the **ODL_User<inject key="DeploymentID"></inject> (2)** environment.
+8.  At the top right of the screen, verify that the **Environment** is set to **ODL_User<inject key="DeploymentID"></inject> (1)**. If it is not, select the **ODL_User<inject key="DeploymentID"></inject> (2)** environment.
 
     ![](../media/pl200-p2t1p6.png)
 

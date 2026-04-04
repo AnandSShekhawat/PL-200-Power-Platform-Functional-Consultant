@@ -50,7 +50,7 @@ In this exercise, you will be examining the tables in the Fabrikam Environmental
 
 1.  Expand the **Project Funding** table and examine its columns and relationships.
 
-1.  Select **Business rules (1)** under the **Project Funding (2)** table. There is a rule for the funding percentage. Open the business rule and examine how it works. 
+1.  Select **Business rules (1)** under the **Project Funding** table. There is a rule for the funding percentage **(2)**. Open the business rule and examine how it works. 
 
     ![Project table.](../media/pl200-p6t1p5.png)
 
@@ -173,7 +173,7 @@ In later labs you will be adding columns and relationships to this custom table.
 
 1.  Scroll up, and select the **Primary column (1)** tab.
 
-1.  Enter `Title` for **Display Name (1)**.
+1.  Enter `Title` for **Display Name (2)**.
 
 1.  Expand **Advanced options (3)**.
 
