@@ -304,12 +304,17 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1. Select **+ New**, and then select **Column**.
 
-1. Enter `Comments` for **Display Name**.
+1. Enter `Comments` for **Display Name (1)**.
 
-1. Select **Text** in the **Data type** drop-down and then under **Multiple lines of text**, select **Plain text**.
+1. Select **Text** in the **Data type (2)** drop-down and then under **Multiple lines of text**, select **Plain text**.
 
-1. Select **Save**.
+1. Select the **Advanced options (3)**.
 
+1. Enter the `comments` in the **Schema name (4)**.
+
+1. Select **Save (5)**.
+
+    ![Add connection role.](../media/pl200-p8t8p8.png)
 
 ### Task 5.2 – Publish changes
 

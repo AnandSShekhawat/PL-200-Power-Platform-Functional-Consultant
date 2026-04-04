@@ -277,6 +277,8 @@ In this exercise, you will import data the into the **PL Environment** environme
 
      ![](../media/pl200-p5t2p24.png)
 
+     >**Note:** Records make take upto 10-15mins to reflect. 
+
 1.  Select the title to open one of the imported **Outcome** records.
 
 1.  Verify the **Estimated Completion Date** column is set to the future date.

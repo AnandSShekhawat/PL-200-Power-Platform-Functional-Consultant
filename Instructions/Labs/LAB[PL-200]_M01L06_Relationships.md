@@ -359,7 +359,7 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
     ![One to many relationships in Solution Explorer.](../media/pl200-p8t5p4.png)
 
-1.  Select **More Actions** and select **Edit**.
+1.  Select **More Actions** and select **Edit** from the top menu bar.
 
 1.  Select **Mappings (1)**.
 
@@ -695,13 +695,15 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 
-1. Select the **Live** environment from the list.
+1. Select the **PL Live** environment from the list.
 
-1. Select **Solutions**.
+1. Select **Solutions (1)**.
 
-1. Select **Import solution**.
+1. Select **Import solution (2)**.
 
-1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_4_managed.zip** and select **Open**.
+    ![Add connection role.](../media/pl200-p8t8p6.png)
+
+1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_6_managed.zip** and select **Open**.
 
 1. Select **Next**.
 
@@ -714,6 +716,9 @@ In this exercise, you will export the solution from the Development environment 
 1. Select **Next**.
 
 1. Select **Import**. The solution will import in the background.
+
+    ![Add connection role.](../media/pl200-p8t8p7.png)
+
 
 ## Challenge (Optional)
 
