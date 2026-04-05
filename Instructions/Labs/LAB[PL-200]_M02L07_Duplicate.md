@@ -1,4 +1,4 @@
-# Lab 2.7: Duplicate detection
+# Lab 2.7: Duplicate detection (Optional)
 
 ## Scenario
 
@@ -17,11 +17,11 @@ In this exercise, you will create a new duplicate detection rule that will mark 
 
 ### Task 1.1 – Create duplicate detection rule
 
-1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
+1. Navigate to the Power Platform admin center `https://admin.powerplatform.microsoft.com`.
 
 1. Select **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **PL Development** environment.
 
 1. Select **Settings**.
 

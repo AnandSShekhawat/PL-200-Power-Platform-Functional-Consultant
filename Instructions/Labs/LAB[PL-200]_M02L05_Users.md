@@ -25,33 +25,39 @@ In this lab, you will:
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **PL Development** environment.
 
 1. Select **Settings**.
 
-    ![](../media/mod-02;lab-05(2).png)
+    ![](../media/pl200-p11t1p1.png)
 
-1. Expand **Users + permissions**.
+1. Expand **Users + permissions (1)**.
 
-1. Select **Users**.
+1. Select **Users (2)**.
+
+    ![](../media/pl200-p11t1p2.png)
 
 1. Select **+ Add user**.
 
-    ![](../media/mod-02;lab-05(3).png)
+    ![](../media/pl200-p11t1p3.png)
 
-1. Enter `Alex` in **Enter a name or an email address** and select **Alex Wilber**.
+1. Enter `Alex` in **Enter a name or an email address** and select **Alex Wilber (1)**.
 
-1. Select **Add**.
+1. Select **Add (2)**.
 
-    ![](../media/mod-02;lab-05(4).png)
+    ![](../media/pl200-p11t1p4.png)
 
-1. Select the **Environmental User** role.
+1. Select the **Environmental User (1)** role.
 
-1. Select **Save**.
+1. Select **Save (2)**.
 
-    ![](../media/mod-02;lab-05(5).png)
+    ![](../media/pl200-p11t1p5.png)
+
+1. Select **Save** on Role assignement confirmation popup.
+
+    ![](../media/pl200-p11t1p6.png)
 
 1. Select **+ Add user**.
 
@@ -63,7 +69,7 @@ In this lab, you will:
 
 1. Select **Save**.
 
-    ![](../media/mod-02;lab-05(6).png)
+1. Select **Save** on Role assignement confirmation popup.
 
 1. Select **+ Add user**.
 
@@ -77,6 +83,7 @@ In this lab, you will:
 
 1. Select **Refresh** to view the updated list of users.
 
+    ![](../media/pl200-p11t1p8.png)
 
 ## Exercise 2 – Create a team
 
@@ -86,7 +93,7 @@ In this lab, you will:
 
 1. Select **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **PL Development** environment.
 
 1. Select **Settings**.
 
@@ -94,42 +101,47 @@ In this lab, you will:
 
 1. Select **Teams**.
 
+    ![](../media/pl200-p11t2p1.png)
+
 1. Select **+ Create team**.
 
-    ![](../media/mod-02;lab-05(7).png)
+    ![](../media/pl200-p11t2p2.png)
 
-1. Enter `Fabrikam Managers`(1) for **Team name**.
+1. Enter `Fabrikam Managers`**(1)** for **Team name**.
 
-1. Select the root business unit(2).
+1. Enter `org` and select the root business unit **(2)**.
 
-1. Enter `ODL_user` in **Administrator** and select **ODL_User <inject key="DeploymentID"></inject>**.
+1. Enter `ODL_user` in **Administrator** and select **ODL_User <inject key="DeploymentID"></inject> (3)**.
 
-1. Select **Owner**(4) in the **Team type** drop-down.
+1. Select **Owner** **(4)** in the **Team type** drop-down.
 
-1. Select **Next**.
+1. Select **Next (5)**.
 
-    ![](../media/mod-02;lab-05(8).png)
+    ![](../media/pl200-p11t2p3.png)
 
-1. Enter `Megan` in **Enter a name or an email address** and select **Megan Bowen**.
+1. Enter `Megan` in **Enter a name or an email address** and select **Megan Bowen (1)**.
 
-1. Select **Next**.
+1. Select **Next (2)**.
+
+    ![](../media/pl200-p11t2p4.png)
 
 1. Select the **Environmental User** and **Environmental Manager** roles.
 
 1. Select **Save**.
 
-    ![](../media/mod-02;lab-05(9).png)
+1. Select **Save** on Role assignement confirmation popup.
 
+    ![](../media/pl200-p11t2p5.png)
 
 ## Exercise 3 – Column security profile
 
 ### Task 3.1 – Add user to column security profile
 
-1. Navigate to the Power Platform admin center <https://admin.powerplatform.microsoft.com>.
+1. Navigate to the Power Platform admin center `https://admin.powerplatform.microsoft.com`.
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **PL Development** environment.
 
 1. Select **Settings**.
 
@@ -137,15 +149,17 @@ In this lab, you will:
 
 1. Select **Column security profiles**.
 
-    ![](../media/mod-02;lab-05(10).png)
+    ![](../media/pl200-p11t3p1.png)
 
 1. Select **Outcome Approval Read-Only**.
 
-1. Select the **Users** tab.
+    ![](../media/pl200-p11t3p2.png)
 
-1. Select **+ Add Users**.
+1. Select the **Users (1)** tab.
 
-    ![](../media/mod-02;lab-05(11).png)
+1. Select **+ Add Users (2)**.
+
+    ![](../media/pl200-p11t3p3.png)
 
 1. Enter `Alex` in **Enter a name or an email address** and select **Alex Wilber**.
 
@@ -156,13 +170,13 @@ In this lab, you will:
 
 1. Select **Column Security Profiles** in the breadcrumb at the top of the screen.
 
+    ![](../media/pl200-p11t3p4.png)
+
 1. Select **Outcome Approval**.
 
 1. Select the **Users** tab.
 
 1. Select **+ Add Users**.
-
-    ![](../media/mod-02;lab-05(11).png)
 
 1. Enter `Patti` in **Enter a name or an email address** and select **Patti Fernandez**.
 
@@ -170,11 +184,15 @@ In this lab, you will:
 
 1. Select the **Teams** tab.
 
+    ![](../media/pl200-p11t3p5.png)
+
 1. Select **+ Add Teams**.
 
 1. Enter `Fabrikam` in **Search for a team by team name** and select **Fabrikam Managers**.
 
 1. Select **Add**.
+
+    ![](../media/pl200-p11t3p6.png)
 
 ### Review
 In this lab, you added users to your environment, created a team and also added teams and users to column security profile.

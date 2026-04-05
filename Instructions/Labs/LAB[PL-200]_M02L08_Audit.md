@@ -1,4 +1,4 @@
-# Lab 2.8: Audit 
+# Lab 2.8: Audit (Optional)
 
 ## Scenario
 
@@ -19,9 +19,9 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **PL Development** environment.
 
 1. Select **Settings**.
 
@@ -32,8 +32,6 @@ In this exercise, you will enable auditing for your environment. In earlier labs
     ![](../media/mod-02;lab-08(1).png)
 
 1. Check the **Start Auditing** box.
-
-1. Select **90 days** in the **Retain these logs for** drop-down.
 
 1. Select **Save**.
 

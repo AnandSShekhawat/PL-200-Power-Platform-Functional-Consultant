@@ -1,4 +1,4 @@
-# Lab 2.6: Bulk delete data
+# Lab 2.6: Bulk delete data (Optional)
 
 ## Scenario
 
@@ -19,17 +19,15 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then select **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **PL Development** environment.
 
 1. Select **Settings**.
 
-1. Expand **Data management**.
+1. Expand **Data management (1)**.
 
-1. Select **Bulk deletion**.
-
-    ![](../media/mod-02;lab-06(1).png)
+1. Select **Bulk deletion (2)**.
 
 1. Select **New**.
 
