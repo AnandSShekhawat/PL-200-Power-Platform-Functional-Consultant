@@ -45,11 +45,9 @@ In this exercise, you will provision a Power Pages site using a starter template
 
     >**Note:**The portal site will deploy. It can take a while for your site to fully deploy.
 
-    ![Power Pages portal deployed.](../media/portal-deployed.png)
-
 1. Wait for the site to be deployed.
 
-    ![](../media/pl200-p21t1p3.png)
+    ![](../media/pl200-p21t1p4.png)
 
 ## Exercise 2 - Explore and configure a Power Pages site
 
@@ -154,11 +152,9 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
     <p class="smallText">{{ now | date: 'yyyy' }}</p>
     ```
 
-    ![](../media/pl200-p21t2p10.png)
-
 1. Click **Save & Close (2)**.
 
-![Power Pages permissions requested.](../media/pg-20-9.1.png)
+    ![](../media/pl200-p21t2p10.png)
 
     > NOTE: The footer on the site is not updated immediately.
 
@@ -340,7 +336,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Select the **Data (4)** tab.
 
-    ![](../media/pl200-p21t3p3.png)
+    ![](../media/pl200-p21t3p4.png)
 
 1. Select **Updates an existing record** for **Data from this form**.
 
@@ -378,7 +374,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. In the top-right of the Power Pages designer, select **Sync**.
 
-    ![](../media/pl200-p21t3p4.png)
+    ![](../media/pl200-p21t3p5.png)
 
 1. Select **Preview** and then select **Desktop**.
 
