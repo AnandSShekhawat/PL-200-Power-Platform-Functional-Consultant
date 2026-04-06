@@ -30,7 +30,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com` .
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -42,14 +42,17 @@ In this task, you will perform the following changes to the form:
 
 1. Under **Data experiences**, select **Views**.
 
-1. Select the **Active Projects** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Active Projects (1)** view, select the **Commands** menu **(⋮) (2)**, and select **Edit (3)** > **Edit in new tab (4)**.
+
+    ![](../media/pl200-p16t1p1.png)
 
 1. Select the **Total Project Funding** column to add to the view.
 
 1. Drag the **Total Project Funding** column to the left of **Project Status**.
 
-1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
+    ![](../media/pl200-p16t1p2.png)
 
+1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
 ### Task 1.2 – Create new completed projects view
 
@@ -59,11 +62,13 @@ In this task, you will perform the following changes to the form:
 - Set filter
 - Remove column
 
-1. Select **Save As**.
+1. Select **Save As (1)**.
 
-1. Enter `Completed Projects` for **Name**.
+1. Enter `Completed Projects` for **Name (2)**.
 
-1. Select **Save**.
+1. Select **Save (3)**.
+
+    ![](../media/pl200-p16t1p3.png)
 
 1. Select the caret next to the **Project Status** column and select **Filter by**.
 
@@ -73,12 +78,13 @@ In this task, you will perform the following changes to the form:
 
 1. Select the caret next to the **Project Status** column and select **Remove**.
 
+    ![](../media/pl200-p16t1p4.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the view designer.
 
 1. Select **Done**.
-
 
 ## Exercise 2 – Project Funding views
 
@@ -92,7 +98,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -104,9 +110,11 @@ In this task, you will perform the following changes to the form:
 
 1. Under **Data experiences**, click on **Views**.
 
-1. Select the **Active Project Funding** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Active Project Funding** view, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
 
 1. Drag the **Funding Amount** column from **Table columns** to between the **Funder** and **Funding Percentage** columns, adding it to the view.
+
+    ![](../media/pl200-p16t1p5.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -125,9 +133,9 @@ In this task, you will perform the following changes to the form:
 - Add the Milestone status to public view
 - Remove the status reason column
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -139,11 +147,13 @@ In this task, you will perform the following changes to the form:
 
 1. Under **Data experiences**, click on **Views**.
 
-1. Select the **Active Outcomes** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Active Outcomes** view, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
 
 1. Drag the **Outcome status** column to the left of the **Owner** column in the view.
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
+
+    ![](../media/pl200-p16t2p1.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -157,13 +167,15 @@ In this task, you will perform the following changes to the form:
 
 - Change the columns in the lookup view for Outcomes
 
-1. Select the **Outcome Lookup View** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Outcome Lookup View** view, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
 
 1. Select the caret next to the **Created On** column and select **Remove**.
 
 1. Select the **Target Aim** column to add to the view.
 
 1. Select the **Outcome status** column to add to the view.
+
+    ![](../media/pl200-p16t2p2.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -177,7 +189,7 @@ In this task, you will perform the following changes to the form:
 
 - Change the find columns in the quick find view
 
-1. Select the **Quick Find Active Outcomes** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Quick Find Active Outcomes** view, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
 
 1. Select the caret next to the **Created On** column and select **Remove**.
 
@@ -196,6 +208,8 @@ In this task, you will perform the following changes to the form:
     - Outcome Description
     - Outcome Title
     - Target Aim
+
+        ![](../media/pl200-p16t3p1.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -216,7 +230,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -228,13 +242,15 @@ In this task, you will perform the following changes to the form:
 
 1. Under **Data experiences**, select **Views**.
 
-1. Select the **Active Milestones** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Active Milestones** view, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
 
 1. Drag the **Number of Open Tasks** column to the right of the **Milestone Title** column in the view.
 
 1. Drag the **Milestone status** column to the left of the **Owner** column in the view.
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
+
+    ![](../media/pl200-p16t4p1.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -250,7 +266,7 @@ In this task, you will perform the following changes to the form:
 - Remove the Status Reason column
 - Edit the filter
 
-1. Select the **My Pending Milestones** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **My Pending Milestones** view, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
 
 1. Drag the **Milestone Status** column to the right of the **Status Reason** column in the view.
 
@@ -258,15 +274,15 @@ In this task, you will perform the following changes to the form:
 
 1. In the **My Pending Milestones** pane on the right side, select **Edit filters**.
 
-1. In the **Edit filters** pane, change **Status Reason** to **Milestone status**.
+1. In the **Edit filters** pane, change **Status Reason** to **Milestone status (1)**.
 
-1. Change the **Operator** to **Does not equal**.
+1. Change the **Operator** to **Does not equal (2)**.
 
-1. Select **Completed** and **Cancelled**.
+1. Select **Completed** and **Cancelled (2)**.
 
-    ![Edit filters pane.](../media/mod-3lab2-1-1.png)
+1. Select **OK (3)**.
 
-1. Select **OK**.
+    ![](../media/pl200-p16t4p2.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -283,7 +299,7 @@ In this task, you will perform the following changes to the form:
 - Add the Milestone Status to the view
 - Remove the Status Reason column
 
-1. Select the **Milestones SubGrid** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Milestones SubGrid** view, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
 
 1. Drag the **Milestone Description** column to the right of the **Milestone Title** column in the view.
 
@@ -291,12 +307,13 @@ In this task, you will perform the following changes to the form:
 
 1. Select the caret next to the **Status Reason** column and select **Remove**.
 
+    ![](../media/pl200-p16t4p3.png)
+
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
 1. **Close** the view designer.
 
 1. Select **Done**.
-
 
 ## Exercise 5 – Project Outcome views
 
@@ -310,7 +327,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
  
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -322,7 +339,7 @@ In this task, you will perform the following changes to the form:
 
 1. Under **Data experiences**, select **Views**.
 
-1. Select the **Active Project Outcomes** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Active Project Outcomes** view, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
 
 1. Select the caret next to the **Created On** column and select **Remove**.
 
@@ -337,6 +354,8 @@ In this task, you will perform the following changes to the form:
 1. In the **Active Project Outcomes** pane on the right side, select **Sort by** and select **Outcome completed date**.
 
 1. Select the **up** arrow to change the sorting to descending.
+
+    ![](../media/pl200-p16t5p1.png)
 
 1. On the **Save and publish** drop-down menu, select **Save only**.
 
@@ -362,7 +381,7 @@ In this task, you will perform the following changes to the form:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -374,7 +393,17 @@ In this task, you will perform the following changes to the form:
 
 1. Under **Data experiences**, select **Forms**.
 
-1. Select the **Information** form of type **Main**, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Information** form of type **Main**, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
+
+1. Select **Components** on the left navigation of the form designer.
+
+1. Select **Get more components (1)**.
+
+1. Select the **Power Apps grid control (2)**.
+
+1. Select **Add (3)**.
+
+    ![](../media/pl200-p16t7p1.png)
 
 1. Select the **Milestones** tab.
 
@@ -384,13 +413,15 @@ In this task, you will perform the following changes to the form:
 
 1. Select **+ Component**.
 
-1. Select **Editable Grid**.
+1. Select **Power Apps grid control**.
 
-1. Under **Subgrid**, select **Projects** for **Table**.
+1. Select **Yes** for **Enable editing**.
 
-1. Select **Active Projects** for **View**.
+1. Select **Yes** for **Show data type icons**.
 
 1. Select **Done**.
+
+    ![](../media/pl200-p16t7p2.png)
 
 1. Select **Save and publish**.
 
@@ -410,9 +441,9 @@ In this task, you will perform the following changes to the app:
 - Restrict Milestone views
 - Restrict Outcome views
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -420,47 +451,37 @@ In this task, you will perform the following changes to the app:
 
 1. In the **Objects** pane on the left, click and expand **Apps**.
 
-1. Select the **Environmental Project Delivery** app, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
+1. Select the **Environmental Project Delivery** app, select the **Commands** menu **(⋮)**, and select **Edit** > **Edit in new tab**.
 
 1. Under **Projects** in the **Pages** pane on the left-hand side, select **Projects view**.
 
-1. In the **Projects** pane on the right, select **Include all views in the app**.
+1. In the **Projects** pane on the right side, select the ellipsis **(...)** on the **Active Projects** view and select **Remove**.
 
-1. Select **Turn off**.
+1. In the **Projects** pane on the right side, select the ellipsis **(...)** on the **Inactive Projects** view and select **Remove**.
 
-1. Add the following views by selecting **More options** menu (...) > **Add**.
+1. In the **Projects** pane on the right side, select the ellipsis **(...)** on the **Projects Subgrid** view and select **Remove**.
 
-    - Completed Projects
-    - My Active Projects
+    ![](../media/pl200-p16t7p3.png)
 
 1. Select **Milestones view** from the left **Pages** pane.
 
-1. In the **Milestones** pane on the right, select **Include all views in the app**.
+1. In the **Milestones** pane on the right side, select the ellipsis **...** on the **Inactive Milestones** view and select **Remove**.
 
-1. Select **Turn off**.
+1. In the **Milestones** pane on the right side, select the ellipsis **...** on the **Milestones SubGrid** view and select **Remove**.
 
-1. Add the following views by selecting **More options** menu (...) > **Add**.
+1. In the **Pages** pane on the left-hand side, select **Outcomes view**.
 
-    - Inactive Milestones
-    - My Pending Milestones
+1. In the **Outcomes** pane on the right side, select the ellipsis **...** on the **Inactive Outcomes** view and select **Remove**.
 
-1. In the **Pages** pane on the left-hand side.
-
-1. Select **Outcome view**.
-
-1. In the pane on the right-hand side, select **Include all views in the app**.
-
-1. Select **Turn off**.
-
-1. Add the following views by selecting **More options** menu (...) > **Add**.
-
-    - Inactive Outcomes
+1. In the **Outcomes** pane on the right side, select the ellipsis **...** on the **Outcomes SubGrid** view and select **Remove**.
 
 1. Select **Save**.
 
 1. Select **Publish**.
 
-1. Select **Play**. Explore the **Environmental Project Delivery** model-driven app. 
+1. Select **Play**. Explore the **Environmental Project Delivery** model-driven app.
+
+    ![](../media/pl200-p16t7p4.png)
 
 1. **Close** the app and the app designer tabs.
 
@@ -476,9 +497,9 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then select **Environments** from the left navigation pane.
 
-1. Select your **Development** environment.
+1. Select your **PL Development** environment.
 
 1. Select **Settings**.
 
@@ -488,35 +509,35 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Toggle **Dataverse search** to **On**.
 
+    ![](../media/pl200-p16t8p1.png)
+
 1. Select **Save** at the bottom.
 
 ### Task 8.2 – Search index
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
 1. Open the **Fabrikam Environmental** solution.
 
-1. In the solution select the **Overview** page.
+1. In the solution select the **Overview (1)** page.
 
-    ![Overview.](../media/mod-3lab2-2-1.png)
+1. Select **Manage search index (2)**.
 
-1. Select **Manage search index**.
-
-    ![Manages search index on solution.](../media/mod-3lab2-3-1.png)
+    ![](../media/pl200-p16t8p2.png)
 
 1. In the **Select tables to index for Dataverse search** pane, add the following tables:
 
-    - Outcome
-    - Project Funding
-    - Resource
+    - Outcome **(1)**
+    - Project Funding **(2)**
+    - Resource **(3)**
 
-    ![Index tables in solution.](../media/mod-3lab2-4-1.png)
+1. Select **Save (4)**.
 
-1. Select **Save**.
+    ![](../media/pl200-p16t8p3.png)
 
 ### Task 8.3 – Publish changes
 
