@@ -278,9 +278,9 @@ In this task, you will perform the following changes to the form:
 
 1. Change the **Operator** to **Does not equal (2)**.
 
-1. Select **Completed** and **Cancelled (2)**.
+1. Select **Completed** and **Cancelled (3)**.
 
-1. Select **OK (3)**.
+1. Select **OK (4)**.
 
     ![](../media/pl200-p16t4p2.png)
 

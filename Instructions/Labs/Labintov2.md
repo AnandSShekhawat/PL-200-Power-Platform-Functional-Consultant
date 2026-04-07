@@ -1,7 +1,9 @@
 # Getting Started with Your PL-200 Power Platform Functional Consultant Workshop
  
 Welcome to your PL-200 Power Platform Functional Consultant workshop! We've prepared a seamless environment that provides a hands-on platform with access to Power Platform tools, learning resources, practical exercises, and support for immersive learning. Let's begin by making the most of this experience:
- 
+
+### Overall Estimated Duration: 40 Hours
+
 ## Overview
 
 In this hands-on lab series, you’ll gain practical experience in building and managing solutions using the Microsoft Power Platform. You’ll start by setting up environments, validating access, and configuring solutions with publishers and components. You’ll then work with Dataverse to design and customize tables, columns, and relationships, ensuring a strong data model.
