@@ -219,6 +219,7 @@ In this task, you will add the custom page to a model-driven app.
 1. Select **Done**.
 
 ## Review
+In this lab, you added an image column to the Resource table and uploaded images for records. You then built a custom page using galleries to display and filter project resources, and integrated the page into a model-driven app for enhanced user interaction and resource management. Great work!
 
 
 ![](../media/pl200-gs-nextpage.png)

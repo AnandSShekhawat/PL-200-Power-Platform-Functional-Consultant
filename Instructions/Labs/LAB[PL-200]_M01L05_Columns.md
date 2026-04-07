@@ -324,7 +324,8 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
     ![Overview.](../media/pl200-p7t4p5.png)
 
-### Review
-In this lab, you modified and added columns on the project and project funding table, modified a lookup coloumn on the milestone table, added a choice coloumn and created coloumns on the project outcome table.
+## Review
+In this lab, you modified existing columns and created new ones across multiple tables, including auto-number, currency, and choice fields. You configured column properties, enabled auditing, and standardized status tracking, enhancing data structure and consistency within the Dataverse solution. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

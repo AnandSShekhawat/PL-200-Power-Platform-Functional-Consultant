@@ -151,7 +151,8 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 1. Select **Done**.
 
-### Review
-In this lab, you configured dashboard security, created an interactive dashboard, enabled Power BI report.
+## Review
+
+In this lab, you configured security roles for an existing dashboard, created an interactive dashboard to visualize project data using charts and views, and enabled Power BI quick report integration within a model-driven app to enhance data insights and reporting capabilities. Great work!
 
 ![](../media/pl200-gs-nextpage.png)

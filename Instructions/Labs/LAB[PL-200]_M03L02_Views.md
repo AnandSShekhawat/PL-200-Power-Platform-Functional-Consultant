@@ -543,7 +543,8 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Select **Publish all customizations**.
 
-### Review
-In this lab, you made changes to the views for project table, project funding table, outcome table, milestone table and project outcome table. Also, made changes to a sub-grid, modified model-driven apps and enabled dataverse search.
+## Review
+In this lab, you customized multiple views across tables by adding, removing, and filtering columns, created new views, and configured sorting. You enabled editable grids, refined model-driven app views, and configured Dataverse search to improve data accessibility and user experience. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

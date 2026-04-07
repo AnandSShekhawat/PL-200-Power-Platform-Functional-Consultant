@@ -13,7 +13,7 @@ In this lab, you will perform:
 
 In this exercise, you will create a *Development* environment that you will do the majority of your lab work in and a *Live* environment to deploy solutions into.
 
-**Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will allow pop-up windows to appear as they should.
+>**Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will allow pop-up windows to appear as they should.
 
 ### Task 1.1: Create development environment
 
@@ -92,15 +92,17 @@ In this exercise, you will create a *Development* environment that you will do t
 > **Note:** You will use the *PL Development* environment for all customizations in the labs. The *PL Live* environment will act as your test/production environment.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
  
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="30838ed1-cb43-4b49-9436-6b3675281953" />
   
 
-### Review
-In this lab, you created a development environment and a live environment.
+## Review
+In this lab, you created Development and Live environments in the Power Platform admin center. You configured Dataverse, verified environment settings, and prepared separate environments for customization and deployment, establishing a structured foundation for managing solutions across development and production stages. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)
 

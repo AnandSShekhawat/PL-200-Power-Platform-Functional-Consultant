@@ -242,7 +242,17 @@ In this lab, you will perform:
 
 1. Select **Done**.
 
-### Review
-In this lab, you created resource and milestone business rules.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+ 
+<validation step="2a20d0a0-b162-4814-a338-410470415a5c" />
+
+## Review
+In this lab, you created business rules to control form behavior by dynamically showing, hiding, and setting required fields based on conditions. You also implemented a rule to automatically update milestone status when completion reaches 100%, improving data consistency and user experience. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

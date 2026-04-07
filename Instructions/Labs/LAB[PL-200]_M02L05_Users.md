@@ -194,7 +194,8 @@ In this lab, you will:
 
     ![](../media/pl200-p11t3p6.png)
 
-### Review
-In this lab, you added users to your environment, created a team and also added teams and users to column security profile.
+## Review
+In this lab, you added users to the environment and assigned appropriate security roles. You created a team, added members, and assigned roles to the team. Additionally, you configured column security profiles by assigning users and teams to control access to sensitive data. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

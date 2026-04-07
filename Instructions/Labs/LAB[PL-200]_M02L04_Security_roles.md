@@ -269,7 +269,8 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Import**. The solution will import in the background.
 
-### Review
-In this lab, you modified the environmental user security role, exported managed and unmanaged solution; imported managed solution.
+## Review
+In this lab, you modified the Environmental User security role by updating table privileges, restricting access levels, and configuring permissions for standard and custom tables. You also adjusted miscellaneous and privacy privileges, and managed solution lifecycle by exporting and importing managed and unmanaged solutions across environments. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

@@ -568,7 +568,9 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Import**. The solution will import in the background.
 
-### Review
-In this lab, you edited approval cloud flow and environmental variable and created automatic cloud flow for project status.
+## Review
+
+In this lab, you enhanced an approval cloud flow with improved logic, validation, and error handling. You updated an environment variable, created an automated flow to set project end dates, integrated a flow with a Canvas app, and managed solution export and import across environments. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

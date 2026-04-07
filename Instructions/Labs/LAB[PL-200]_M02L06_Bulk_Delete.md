@@ -69,7 +69,8 @@ In this exercise, you will create a bulk deletion operation that will delete all
 
     >**Note:** Wait for the job to be created. This can take few minutes. **Refresh** the view as needed.
 
-### Review
-In this lab, you created Bulk Delete Operation.
+## Review
+In this lab, you created a recurring bulk delete job in Microsoft Dataverse to automatically remove outdated milestone records. You configured filters, scheduling, and conditions to ensure stale data is cleaned up regularly, helping maintain data quality and system performance. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

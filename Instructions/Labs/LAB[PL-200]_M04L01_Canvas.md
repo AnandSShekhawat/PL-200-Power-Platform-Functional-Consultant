@@ -1,4 +1,4 @@
-# Lab 4.1 – Enhance a canvas app
+# Lab 4.1: Enhance a canvas app
 
 ## Scenario  
 You are a Power Platform functional consultant working with the Contoso team. You’ve been asked to create a simple Canvas app that allows users to view and update milestone records stored in Microsoft Dataverse.
@@ -89,7 +89,17 @@ This lab will take approximately **30** minutes to complete.
 
       ![](../media/pl200-p19t3p5.png)
 
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+ 
+<validation step="e7207f84-b7e2-4166-8fbc-dd866588e50f" />
+
 ## Review
+In this lab, you created a Canvas app from the Milestones Dataverse table, configured a gallery to display key milestone details, and customized a form to view and update records. You also refined the app layout, renamed components, and published the app for use. Great work!
 
 
 ![](../media/pl200-gs-nextpage.png)

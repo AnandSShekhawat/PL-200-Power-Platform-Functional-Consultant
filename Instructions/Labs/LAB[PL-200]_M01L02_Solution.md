@@ -120,7 +120,8 @@ In this exercise, you will add an existing table to the solution.
 
     ![](../media/pl200-p4t3p8.png)
 
-### Review
-In this lab, you created publisher and solution and also added components to the solution.
+## Review
+In this lab, you created a custom publisher and solution in the Power Apps Maker portal. You configured solution settings and added existing components like tables, columns, views, and forms, helping organize and manage application customizations effectively within the development environment. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

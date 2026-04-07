@@ -380,7 +380,9 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. Test viewing and editing Milestones.
 
-### Review
-In this lab, you explored,configured a Power Pages site and exposed a datverse data.
+## Review
+
+In this lab, you created a Power Pages site using a starter template, explored and customized site components, and configured portal settings. You then exposed Dataverse data by adding lists, forms, and permissions, enabling users to securely view and update milestone records through the portal. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

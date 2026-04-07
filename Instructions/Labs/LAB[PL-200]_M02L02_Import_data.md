@@ -130,3 +130,5 @@ In this exercise, you will import Outcome rows into your Microsoft Dataverse env
 
 ### Review
 In this lab, you have loaded excel file to onedrive, created a dataflow and tested your work.
+
+![](../media/pl200-gs-nextpage.png)

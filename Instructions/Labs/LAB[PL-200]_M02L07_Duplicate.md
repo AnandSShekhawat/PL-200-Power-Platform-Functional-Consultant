@@ -63,5 +63,8 @@ In this exercise, you will create a new duplicate detection rule that will mark 
 
 1. Select **Close**.
 
-### Review
-In this lab, you created new duplicate detection rule.
+## Review
+In this lab, you created and configured a duplicate detection rule in Microsoft Dataverse to prevent duplicate project records based on project title and program. You defined matching criteria, enabled the rule, and published it to ensure data consistency and integrity. Great work!
+
+### You've successfully completed the Hand's-on lab!
+

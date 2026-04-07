@@ -283,15 +283,7 @@ In this exercise, you will import data the into the **PL Environment** environme
 
 1.  Verify the **Outcome Lifecycle** business process flow is visible at the top of the form.
 
-
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- 
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-### Review
-In this lab, you imported Fabrikam solutions, imported data and signed up for power pages.
+## Review
+In this lab, you prepared the development environment by importing solutions and data into Dataverse. You configured the preferred solution, used the Configuration Migration Tool and dataflows to load data, and validated the setup by reviewing records in the model-driven app. Great work!
 
 ![](../media/pl200-gs-nextpage.png)

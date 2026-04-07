@@ -75,10 +75,11 @@ In this exercise, you'll assign license to the following user through the Micros
 
 1. Now perform the **step 3 and 4** for the following users as well to assign them **Microsoft Power Apps for Developer** license :
 
-    - Megan Brown
-    - Patti Fernandez
+    - **Megan Brown**
+    - **Patti Fernandez**
 
-### Review
-In this lab, you acquired Power Platform trial tenant,verified your Power Apps license and assigned Power Apps licenses to other users.
+## Review
+In this lab, you validated the lab environment by accessing the Power Platform, activating a trial, and verifying environment settings. You also assigned Power Apps licenses to users through the Microsoft 365 admin center, ensuring all users have the required access to perform the labs successfully. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)

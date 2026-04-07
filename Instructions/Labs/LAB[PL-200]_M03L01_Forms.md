@@ -866,7 +866,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Done**.
 
-### Review
-In this lab, you edited project forms, program form, program funding form, region form, milestone form, outcome form and project outcome form, created a quick create form, copied outcome form and modified model-driven apps.
+## Review
+In this lab, you customized multiple model-driven app forms by updating layouts, adding and removing fields, and configuring controls like timelines and sub-grids. You created a quick create form, copied and secured forms based on roles, and updated model-driven apps to use appropriate forms and tables. Great work!
 
 ![](../media/pl200-gs-nextpage.png)

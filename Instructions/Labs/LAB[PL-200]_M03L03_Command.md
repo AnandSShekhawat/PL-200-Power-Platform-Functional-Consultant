@@ -8,13 +8,11 @@ In this practice lab, you will be modifying the forms for the Fabrikam Environme
 
 You will be adding a command button to the project outcome form in the Environental Project Delivery app.
 
-This lab will take approximately **45** minutes to complete. 
-
 ## Lab objectives
+
 In this lab, you will perform:
 
 - Exercise 1: Add command button
-- 
 
 ## Exercise 1: Add command button
 
@@ -89,5 +87,7 @@ In this task, you will perform the following changes to the Project Outcome form
 1. **Close** the app designer.
 
 ## Review
+
+In this lab, you customized the command bar of a model-driven app by adding a new button to the Project Outcome form. You configured the button using Power Fx to update records dynamically and enhanced user interaction with custom labels, icons, and tooltips. Great work!
 
 ![](../media/pl200-gs-nextpage.png)

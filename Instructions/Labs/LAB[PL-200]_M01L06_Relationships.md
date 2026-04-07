@@ -728,7 +728,8 @@ Create a new workflow that meets the following requirements:
 - Sets the **Title** column on the Project Outcome table when a new record is created or when a project or an outcome lookup column is changed.
 - Sets the column to a concatenation based on the relationships you configured in this lab (see examples in the Project Funding Name and Project Resource Name workflows). 
 
-### Review
-In this lab, you have changed relationship behaviours, added new relationship, created new hierarichial and project outcome relationships, enabled connections, created calculated and rollup fields, exported and imported solutions.
+## Review
+In this lab, you created and modified relationships, configured cascade behaviors, and built hierarchical and lookup relationships. You also implemented calculated and rollup columns, enabled connections, and enhanced data modeling. Finally, you validated and deployed changes by exporting and importing solutions across environments. Great work!
+
 
 ![](../media/pl200-gs-nextpage.png)
