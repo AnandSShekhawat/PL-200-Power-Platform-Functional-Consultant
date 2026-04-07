@@ -101,5 +101,6 @@ This lab will take approximately **30** minutes to complete.
 ## Review
 In this lab, you created a Canvas app from the Milestones Dataverse table, configured a gallery to display key milestone details, and customized a form to view and update records. You also refined the app layout, renamed components, and published the app for use. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

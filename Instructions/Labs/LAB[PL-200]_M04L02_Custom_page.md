@@ -1,4 +1,4 @@
-# Lab 4.2 – Create a custom page
+# Lab 4.2: Create a custom page
 
 ## Scenario
 
@@ -11,14 +11,14 @@ This lab will take approximately **60** minutes to complete.
 ## Lab Objectives
 In this lab, you'll be performing the following tasks:
 
-+ Exercise 1 – Add an image to the Resource table
-+ Exercise 2 – Build custom page
++ Exercise 1: Add an image to the Resource table
++ Exercise 2: Build custom page
 
-## Exercise 1 – Add an image to the Resource table
+## Exercise 1: Add an image to the Resource table
 
 In this exercise, you will be adding an image column to the Resource table.
 
-### Task 1.1 – Create an image column
+### Task 1.1: Create an image column
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -46,7 +46,7 @@ In this exercise, you will be adding an image column to the Resource table.
 
     ![](../media/pl200-p20t1p1.png)
 
-### Task 1.2 – Add images to resources
+### Task 1.2: Add images to resources
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -72,11 +72,11 @@ In this exercise, you will be adding an image column to the Resource table.
     ![](../media/pl200-p20t1p5.png)
 
 
-## Exercise 2 – Build custom page
+## Exercise 2: Build custom page
 
 In this exercise, you will build a custom page to manage project resources.
 
-### Task 2.1 - Create a custom page
+### Task 2.1: Create a custom page
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -105,7 +105,7 @@ In this exercise, you will build a custom page to manage project resources.
 1. Rename *Screen1* to `Project Resources`.
 
 
-### Task 2.2 - Add gallery for resources
+### Task 2.2: Add gallery for resources
 
 1. In the **Tree view**, expand **ScreenContainer1**.
 
@@ -128,7 +128,7 @@ In this exercise, you will build a custom page to manage project resources.
 1. Close the **Data** panel.
 
 
-### Task 2.3 - Add gallery for project resources
+### Task 2.3: Add gallery for project resources
 
 1. In the **Tree view**, expand **ScreenContainer1**.
 
@@ -178,7 +178,7 @@ In this exercise, you will build a custom page to manage project resources.
 
 1. Select **🡠 Back**.
 
-### Task 2.4 – Add custom page
+### Task 2.4: Add custom page
 
 In this task, you will add the custom page to a model-driven app.
 
@@ -221,5 +221,6 @@ In this task, you will add the custom page to a model-driven app.
 ## Review
 In this lab, you added an image column to the Resource table and uploaded images for records. You then built a custom page using galleries to display and filter project resources, and integrated the page into a model-driven app for enhanced user interaction and resource management. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

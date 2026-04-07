@@ -81,5 +81,6 @@ In this exercise, you'll assign license to the following user through the Micros
 ## Review
 In this lab, you validated the lab environment by accessing the Power Platform, activating a trial, and verifying environment settings. You also assigned Power Apps licenses to users through the Microsoft 365 admin center, ensuring all users have the required access to perform the labs successfully. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

@@ -207,5 +207,6 @@ In later labs you will be adding columns and relationships to this custom table.
 ## Review
 In this lab, you explored the existing data model, reviewed tables, relationships, and business rules. You updated table properties to enable features like attachments, activities, auditing, and search, and created a new custom table to enhance data structure and support future relationships. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

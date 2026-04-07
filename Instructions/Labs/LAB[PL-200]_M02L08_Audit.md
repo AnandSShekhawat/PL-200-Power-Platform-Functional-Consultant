@@ -48,6 +48,7 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 ## Review
 In this lab, you enabled auditing at the environment level in Microsoft Dataverse to track and monitor data changes. You configured audit settings and reviewed audit logs to understand how system activities and data modifications are recorded. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)
 

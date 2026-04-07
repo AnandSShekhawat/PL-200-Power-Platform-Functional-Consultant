@@ -272,5 +272,6 @@ In this exercise, you will export the solution from the Development environment 
 ## Review
 In this lab, you modified the Environmental User security role by updating table privileges, restricting access levels, and configuring permissions for standard and custom tables. You also adjusted miscellaneous and privacy privileges, and managed solution lifecycle by exporting and importing managed and unmanaged solutions across environments. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

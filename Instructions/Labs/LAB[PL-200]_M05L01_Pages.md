@@ -9,15 +9,15 @@ In this practice lab, you will explore your Power Pages portal and expose Milest
 ## Lab objectives
 In this lab, you will perform:
 
-- Exercise 1 - Sign up for Power Pages
-+ Exercise 2 - Explore and configure a Power Pages site
-+ Exercise 3 - Expose Dataverse data
+- Exercise 1: Sign up for Power Pages
++ Exercise 2: Explore and configure a Power Pages site
++ Exercise 3: Expose Dataverse data
 
-## Exercise 1 - Sign up for Power Pages
+## Exercise 1: Sign up for Power Pages
 
 In this exercise, you will provision a Power Pages site using a starter template.
 
-### Task 1.1 - Create a Power Pages site
+### Task 1.1: Create a Power Pages site
 
 1. Navigate to the Power Pages portal `https://make.powerpages.microsoft.com/` and sign in with your Microsoft 365 credentials if prompted.
 
@@ -49,11 +49,11 @@ In this exercise, you will provision a Power Pages site using a starter template
 
     ![](../media/pl200-p21t1p4.png)
 
-## Exercise 2 - Explore and configure a Power Pages site
+## Exercise 2: Explore and configure a Power Pages site
 
 In this exercise, you will explore a Power Pages site and the Power Pages tools. You will make minor changes to the site content.
 
-### Task 2.1 - Review the Power Pages site
+### Task 2.1: Review the Power Pages site
 
 1. Navigate to the Power Pages portal `https://make.powerpages.microsoft.com/`.
 
@@ -79,7 +79,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Complete the **Fill in your details** form with dummy data and click **Submit**.
 
-### Task 2.2 - Sign in to the Power Pages site
+### Task 2.2: Sign in to the Power Pages site
 
 1. In the menu, select  **Sign in**.
 
@@ -91,7 +91,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
     ![](../media/pl200-p21t2p5.png)
 
-### Task 2.3 - Review the Power pages Management model-driven app
+### Task 2.3: Review the Power pages Management model-driven app
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
@@ -137,7 +137,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
         ![](../media/pl200-p21t2p9.png)
 
-### Task 2.4 - Edit the site footer in Portal Management
+### Task 2.4: Edit the site footer in Portal Management
 
 1. In the left-hand navigation, select **Content Snippets**.
 
@@ -158,7 +158,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
     > NOTE: The footer on the site is not updated immediately.
 
-### Task 2.5 - Review Portal Designer
+### Task 2.5: Review Portal Designer
 
 1. Navigate to the Power Pages portal <https://make.powerpages.microsoft.com/>.
 
@@ -174,7 +174,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Select **Subpage 2**. Do not navigate away from this page.
 
-### Task 2.6 - Update pages in the Portal Designer
+### Task 2.6: Update pages in the Portal Designer
 
 1. Select the ellipses **(...)** and select **Page settings**.
 
@@ -208,7 +208,7 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
     ![](../media/pl200-p21t2p13.png)
 
-### Task 2.7 - View the changes to the site
+### Task 2.7: View the changes to the site
 
 1. In the top-right of the Power Pages designer, click on **Sync**.
 
@@ -216,11 +216,11 @@ In this exercise, you will explore a Power Pages site and the Power Pages tools.
 
 1. Verify your changes have been made.
 
-## Exercise 3 – Expose Dataverse data
+## Exercise 3: Expose Dataverse data
 
 In this exercise, you will add a list of Milestone rows to the page, add a form to edit rows, and configure security to allow the data to be changed in the portal site.
 
-### Task 3.1 - Display Dataverse records
+### Task 3.1: Display Dataverse records
 
 1. Navigate to the Power Pages portal `https://make.powerpages.microsoft.com/`.
 
@@ -244,7 +244,7 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
     ![](../media/pl200-p21t3p1.png)
 
-### Task 3.2 - Security
+### Task 3.2: Security
 
 1. Select **Permissions** in the list component editor (you may need to hover over the list to see this).
 
@@ -303,12 +303,8 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
 1. In the top-right of the Power Pages designer, select **Sync**.
 
-1. Select **Preview** and then select **Desktop**.
 
-1. Verify that milestone records are listed in the Power Pages site.
-
-
-### Task 3.3 - Form
+### Task 3.3: Form
 
 1. In the **Pages** pane on the left side, and select **Pages**.
 
@@ -376,13 +372,10 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 
     ![](../media/pl200-p21t3p5.png)
 
-1. Select **Preview** and then select **Desktop**.
-
-1. Test viewing and editing Milestones.
-
 ## Review
 
 In this lab, you created a Power Pages site using a starter template, explored and customized site components, and configured portal settings. You then exposed Dataverse data by adding lists, forms, and permissions, enabling users to securely view and update milestone records through the portal. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

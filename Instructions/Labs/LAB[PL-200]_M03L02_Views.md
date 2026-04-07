@@ -546,5 +546,7 @@ The find columns on the quick find views define the searchable fields in the Dat
 ## Review
 In this lab, you customized multiple views across tables by adding, removing, and filtering columns, created new views, and configured sorting. You enabled editable grids, refined model-driven app views, and configured Dataverse search to improve data accessibility and user experience. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
+
 
 ![](../media/pl200-gs-nextpage.png)

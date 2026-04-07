@@ -731,5 +731,6 @@ Create a new workflow that meets the following requirements:
 ## Review
 In this lab, you created and modified relationships, configured cascade behaviors, and built hierarchical and lookup relationships. You also implemented calculated and rollup columns, enabled connections, and enhanced data modeling. Finally, you validated and deployed changes by exporting and importing solutions across environments. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

@@ -869,4 +869,6 @@ In this task, you will perform the following changes to the app:
 ## Review
 In this lab, you customized multiple model-driven app forms by updating layouts, adding and removing fields, and configuring controls like timelines and sub-grids. You created a quick create form, copied and secured forms based on roles, and updated model-driven apps to use appropriate forms and tables. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
+
 ![](../media/pl200-gs-nextpage.png)

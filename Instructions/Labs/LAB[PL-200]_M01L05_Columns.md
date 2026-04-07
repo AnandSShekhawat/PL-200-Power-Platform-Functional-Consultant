@@ -327,5 +327,6 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 ## Review
 In this lab, you modified existing columns and created new ones across multiple tables, including auto-number, currency, and choice fields. You configured column properties, enabled auditing, and standardized status tracking, enhancing data structure and consistency within the Dataverse solution. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

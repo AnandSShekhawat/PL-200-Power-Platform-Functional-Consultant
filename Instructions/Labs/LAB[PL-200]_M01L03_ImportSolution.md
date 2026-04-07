@@ -286,4 +286,6 @@ In this exercise, you will import data the into the **PL Environment** environme
 ## Review
 In this lab, you prepared the development environment by importing solutions and data into Dataverse. You configured the preferred solution, used the Configuration Migration Tool and dataflows to load data, and validated the setup by reviewing records in the model-driven app. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
+
 ![](../media/pl200-gs-nextpage.png)

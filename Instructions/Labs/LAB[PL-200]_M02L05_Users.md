@@ -197,5 +197,6 @@ In this lab, you will:
 ## Review
 In this lab, you added users to the environment and assigned appropriate security roles. You created a team, added members, and assigned roles to the team. Additionally, you configured column security profiles by assigning users and teams to control access to sensitive data. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

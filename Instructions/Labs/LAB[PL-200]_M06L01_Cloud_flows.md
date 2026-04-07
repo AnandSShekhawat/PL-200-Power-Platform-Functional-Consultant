@@ -12,14 +12,14 @@ In this lab, you will perform:
 + Exercise 1: Edit approval cloud flow
 + Exercise 2: Edit environment variable
 + Exercise 3: Create automatic cloud flow for project status
-+ Exercise 4 – Call Power Automate from a Canvas app
-+ Exercise 5 – Solutions
++ Exercise 4: Call Power Automate from a Canvas app
++ Exercise 5: Solutions
 
-## Exercise 1 – Edit approval cloud flow
+## Exercise 1: Edit approval cloud flow
 
 In this exercise, you will enhance the existing approvals flow.
 
-### Task 1.1 – Change the approver in flow
+### Task 1.1: Change the approver in flow
 
 In this task, you will perform the following changes to the flow:
 
@@ -55,7 +55,7 @@ In this task, you will perform the following changes to the flow:
 
     ![](../media/pl200-p22t1p2.png)
 
-### Task 1.2 – Check if an approver is assigned to the outcome
+### Task 1.2: Check if an approver is assigned to the outcome
 
 In this task, you will perform the following changes to the flow:
 
@@ -121,7 +121,7 @@ In this task, you will perform the following changes to the flow:
 
     ![](../media/pl200-p22t1p6.png)
 
-### Task 1.3 – Error handling
+### Task 1.3: Error handling
 
 In this task, you will perform the following changes to the flow:
 
@@ -157,7 +157,7 @@ In this task, you will perform the following changes to the flow:
 
     ![Error handing and parallel branch.](../media/flow-error-handling.1.png)
 
-### Task 1.4 – Set status to rejected
+### Task 1.4: Set status to rejected
 
 In this task, you will perform the following changes to the flow:
 
@@ -195,11 +195,11 @@ In this task, you will perform the following changes to the flow:
 
     ![Condition.](../media/demo3.png)
 
-## Exercise 2 – Edit environment variable
+## Exercise 2: Edit environment variable
 
 In this exercise, you will find the URL for your environment and update the environment variable.
 
-### Task 2.1 – Find the URL for your environment
+### Task 2.1: Find the URL for your environment
 
 In this task, you will:
 
@@ -237,7 +237,7 @@ In this task, you will:
     https://practice.crm.dynamics.com/main.aspx?appid=de79a38a-138b-4a89-91fb-b12ca31d227b&pagetype=entityrecord&etn=contoso_outcome&id=
     ```
 
-### Task 2.2 – Update environment variable
+### Task 2.2: Update environment variable
 
 In this task, you will:
 
@@ -263,7 +263,7 @@ In this task, you will:
 
     ![](../media/pl200-p22t2p1.png)
 
-### Task 2.3 – Restart flow
+### Task 2.3: Restart flow
 
 In this task, you will:
 
@@ -370,7 +370,7 @@ In this task, you will perform the following:
 
 1. Click the back arrow icon in the top-left of the flow editor.
 
-## Exercise 4 – Call Power Automate from a Canvas app
+## Exercise 4: Call Power Automate from a Canvas app
 
 In this exercise, you will add a Power Automate flow to the canvas app to reset the status of a Milestone.
 
@@ -504,11 +504,11 @@ In this task, you will perform the following changes to the screen:
 
 1. **Close** the tab.
 
-## Exercise 5 – Solutions
+## Exercise 5: Solutions
 
 In this exercise, you will export the solution from the Development environment and import it into the Production environment.
 
-### Task 5.1 – Export managed solution
+### Task 5.1: Export managed solution
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -533,7 +533,7 @@ In this exercise, you will export the solution from the Development environment 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
 
-### Task 5.2 – Export unmanaged solution
+### Task 5.2: Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution.
 
@@ -552,7 +552,7 @@ In this exercise, you will export the solution from the Development environment 
 1. The export will be prepared in the background, when the solution is ready click the **Download** button.
 
 
-### Task 5.3 – Import managed solution
+### Task 5.3: Import managed solution
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 
@@ -572,5 +572,6 @@ In this exercise, you will export the solution from the Development environment 
 
 In this lab, you enhanced an approval cloud flow with improved logic, validation, and error handling. You updated an environment variable, created an automated flow to set project end dates, integrated a flow with a Canvas app, and managed solution export and import across environments. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

@@ -90,4 +90,6 @@ In this task, you will perform the following changes to the Project Outcome form
 
 In this lab, you customized the command bar of a model-driven app by adding a new button to the Project Outcome form. You configured the button using Power Fx to update records dynamically and enhanced user interaction with custom labels, icons, and tooltips. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
+
 ![](../media/pl200-gs-nextpage.png)

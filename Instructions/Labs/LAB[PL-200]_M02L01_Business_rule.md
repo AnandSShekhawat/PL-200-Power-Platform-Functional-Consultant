@@ -254,5 +254,6 @@ In this lab, you will perform:
 ## Review
 In this lab, you created business rules to control form behavior by dynamically showing, hiding, and setting required fields based on conditions. You also implemented a rule to automatically update milestone status when completion reaches 100%, improving data consistency and user experience. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

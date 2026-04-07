@@ -17,7 +17,7 @@ In this lab, you will perform:
 
 In this exercise, you will assign security roles to the existing dashboard.
 
-### Task 1.1 – Assign roles to dashboard
+### Task 1.1: Assign roles to dashboard
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -154,5 +154,7 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 ## Review
 
 In this lab, you configured security roles for an existing dashboard, created an interactive dashboard to visualize project data using charts and views, and enabled Power BI quick report integration within a model-driven app to enhance data insights and reporting capabilities. Great work!
+
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)

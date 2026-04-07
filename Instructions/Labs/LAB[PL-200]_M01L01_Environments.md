@@ -103,6 +103,7 @@ In this exercise, you will create a *Development* environment that you will do t
 ## Review
 In this lab, you created Development and Live environments in the Power Platform admin center. You configured Dataverse, verified environment settings, and prepared separate environments for customization and deployment, establishing a structured foundation for managing solutions across development and production stages. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
 ![](../media/pl200-gs-nextpage.png)
 
