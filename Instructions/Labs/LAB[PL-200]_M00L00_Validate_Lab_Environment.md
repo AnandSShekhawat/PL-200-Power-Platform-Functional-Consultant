@@ -65,7 +65,7 @@ In this exercise, you'll assign license to the following user through the Micros
 
     ![](../media/pl200-p2t2p1.png)
 
-1. From the list of Active users, select **Alex Wilber (1)**. In the **Alex Wilber** pane on the right, select the **Licenses and apps (2)** tab and then check the box next to **Microsoft Power Apps for Developer (3)** and then select **Save changes(4)**. 
+1. From the list of Active users, select **Alex Wilber (1)**. In the **Alex Wilber** pane on the right, select the **Licenses and apps (2)** tab and then check the box next to **Microsoft Power Apps for Developer (3)** and then select **Save changes (4)**. 
 
     ![](../media/pl200-p2t2p2.png)
 

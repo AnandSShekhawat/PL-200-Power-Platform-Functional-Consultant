@@ -52,8 +52,6 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select **Power Fx** and then select **Continue**.
 
-    ![Select Power Fx.](../media/command-power-fx.png)
-
 1. Configure command bar button
 
    - Enter `Complete` for **Label (1)**.
