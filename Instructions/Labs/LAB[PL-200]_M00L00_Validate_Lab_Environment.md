@@ -8,67 +8,79 @@ If you are being provided with a tenant as a part of an instructor-led training 
 ## Lab objectives
 In this lab, you will perform:
 
-+ Task 1: Acquire Power Platform trial tenant
-+ Task 2: Verify your Power Apps license has been assigned
-+ Task 3: Assign Power Apps licenses to other users
++ Exercise 1: Access Microsoft Power Platform
++ Exercise 2: Assign License to the users
   
-## Exercise 1 – Acquire a Microsoft Power Platform trial
+## Exercise 1: Access Microsoft Power Platform
 
 In this exercise, you will add a Power Apps trial to the tenant and assign licenses to users.
 
-### Task 1.1 – Acquire your Power Platform trial tenant
+### Task 1.1: Sign in to Power Apps
 
 1.  Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. 
 
-2.  In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Start free**.
+2.  In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Try for free**.
 
-    ![](../media/module0.png)
+    ![](../media/pl200-p2t1p1.png)
 
-4.  Enter the `email address` provided by the Authorized Lab Host. 
+1. On the **Let’s get started** page, enter your email address **(1)**, select the agreement checkbox **(2)**, and then click **Start free (3)**.
+ 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    
+     ![](../media/pl200-p2t1p2.png)
 
-5.  Select **Sign in**. 
+1. Enter the following password and click **Sign in**:
 
-6.  Enter the `password` provided by the Authorized Lab Host. 
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+    
+     ![](../media/pl200-p2t1p3.png)
 
-7.  Select **Yes** to stay signed in. 
+1.  Select **Yes** to stay signed in.
 
-8.  The Power Apps maker portal will load in a new tab. 
+    ![](../media/pl200-p2t1p4.png)
 
+1. If prompted for contact information, leave the Country/region **(1)** as the default value and select **Submit (2)**.
 
-### Task 1.2 – Verify your Power Apps license has been assigned
+    ![](../media/pl200-p2t1p5.png)
 
-1.  In a new browser tab, navigate to `https://admin.microsoft.com`
+8.  At the top right of the screen, verify that the **Environment** is set to **ODL_User<inject key="DeploymentID"></inject> (1)**. If it is not, select the **ODL_User<inject key="DeploymentID"></inject> (2)** environment.
 
-1.  In the left-hand navigation, expand **Users** and select **Active users**.
+    ![](../media/pl200-p2t1p6.png)
 
-    ![](../media/pl-200(1).png)
+## Exercise 2: Assign License to the users
 
-1.  Select your user **ODL_USER <inject key="DeploymentID"></inject>** to open the user details panel and select the **Licenses and apps** tab.
+In this exercise, you'll assign license to the following user through the Microsoft 365 admin center.
 
-    ![](../media/0-0.png)
+### Task 2.1: Assign license to users
 
-1.  Verify an appropriate **Power Apps** license is selected. If not, retry Task 1.1.
+1. Navigate to the Microsoft 365 admin center using the following URL: `https://admin.cloud.microsoft`
 
-    > **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
+1. If prompted, sign in using the following credentials:
 
-1.  Select the **X** in the top right of the pane to close the panel. 
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-### Task 1.3 – Assign Power Apps licenses to other users
+1. From the left navigation pane, select **Users (1)** and then select **Active users (2)**.
 
-1.  In the left-hand navigation, expand **Users** and select **Active users**.
+    ![](../media/pl200-p2t2p1.png)
 
-1.  Check the boxes next to the other users, select the **ellipses (...**) menu in the action bar, and select **Manage product licenses**.
+1. From the list of Active users, select **Alex Wilber (1)**. In the **Alex Wilber** pane on the right, select the **Licenses and apps (2)** tab and then check the box next to **Microsoft Power Apps for Developer (3)** and then select **Save changes(4)**. 
 
-    ![](../media/Pl-200(3).png)
+    ![](../media/pl200-p2t2p2.png)
 
-1.  Select **Assign more** and select an appropriate **Power Apps** license. Select **Save changes**.
+1. Now close the pane using the **X** icon on the top right.
 
-    > **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
+    ![](../media/pl200-p2t2p3.png)
 
-    ![](../media/0=assign.png)
+1. Now perform the **step 3 and 4** for the following users as well to assign them **Microsoft Power Apps for Developer** license :
 
-1.  Select **Done**.
+    - **Megan Brown**
+    - **Patti Fernandez**
 
-### Review
-In this lab, you acquired Power Platform trial tenant,verified your Power Apps license and assigned Power Apps licenses to other users.
+## Review
+In this lab, you validated the lab environment by accessing the Power Platform, activating a trial, and verifying environment settings. You also assigned Power Apps licenses to users through the Microsoft 365 admin center, ensuring all users have the required access to perform the labs successfully. Great work!
+
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
+
+![](../media/pl200-gs-nextpage.png)

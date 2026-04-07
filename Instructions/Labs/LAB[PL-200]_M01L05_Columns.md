@@ -15,16 +15,16 @@ In this lab, you will perform:
 + Exercise 4: Add a Choice column
 + Exercise 5: Create columns on the Project Outcome table
 
-## Exercise 1 – Modify and add columns on the Project table
+## Exercise 1: Modify and add columns on the Project table
 
 In this exercise, you will be changing properties on existing columns on the Project table in the Fabrikam Environmental solution, creating new columns, and adding an alternate key.
 
 
-### Task 1.1 – Modify properties on existing columns
+### Task 1.1: Modify properties on existing columns
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -36,25 +36,29 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Under **Schema**, select **Columns**.
 
-1. Select the **Project Description** column. 
+1. Select the **Project Description** column.
+
+    ![Project table properties.](../media/pl200-p7t1p1.png)
 
 1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
 
-1. Change the **Maximum character count** to **10000**.
+1. Change the **Maximum character count (1)** to **10000**.
 
-   ![Add calculated column.](../media/3-1-1.png)
+1. Select **Save (2)**.
 
-1. Select **Save**.
+    ![Project table properties.](../media/pl200-p7t1p2.png)
 
 1. Select the **Project Status** column.
 
-1. In the **Edit column** pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required (1)**.
 
-1. Expand **Advanced options**.
+1. Expand **Advanced options (2)**.
 
-1. Under Dashboard, check the **Appears in dashboard's global filter** box.
+1. Under Dashboard, check the **Appears in dashboard's global filter (3)** box.
 
-1. Select **Save**.
+1. Select **Save (4)**.
+
+    ![Project table properties.](../media/pl200-p7t1p3.png)
 
 1. Select the **Project Type** column.
 
@@ -77,100 +81,33 @@ In this exercise, you will be changing properties on existing columns on the Pro
 1. Select **Save**.
 
 
-### Task 1.2 – Create an auto number column
+### Task 1.2: Create an auto number column
 
 1. Select **+ New column**.
 
-1. Enter `Project Code` for **Display Name**.
+    ![Project table properties.](../media/pl200-p7t1p4.png)
 
-1. Enter `Unique project reference` for **Description**.
+1. Enter `Project Code` for **Display Name (1)**.
 
-1. Select **Autonumber** in the **Data type** drop-down.
+1. Enter `Unique project reference` for **Description (2)**.
 
-1. Enter `PROJ` for **Prefix**.
+1. Select **Autonumber** in the **Data type (3)** drop-down.
 
-1. Select **Save**.
+1. Enter `PROJ` for **Prefix (4)**.
 
+1. Select **Save (5)**.
 
-### Task 1.3 – Add an alternate key
+    ![Project table properties.](../media/pl200-p7t1p5.png)
 
-1. In the **Objects** pane on the left, expand **Tables**, and select **Project**.
-
-2. Under **Schema**, select **Keys**.
-
-3. Select **+ New key**.
-
-4. Enter `Project Reference` for **Display Name**.
-
-5. Check the **Project Code** Column.
-
-   ![Add calculated column.](../media/14-1.png)
-
-6. Select **Save**.
-   
-### Task 1.4 – Add a calculated column
-
-1. In the **Objects** pane on the left, expand **Tables**, and select **Project**.
-
-1. Under **Schema**, select **Columns**.
-
-1. Select **+ New column**.
-
-1. Enter `Length of Project` for **Display Name**.
-
-1. Enter `Number of days` for **Description**.
-
-1. Select **Number** in the **Data type** drop-down. The Data type will be set to **Whole Number** and the Format will be set to **None**.
-
-1. Change the **Behavior** drop-down to **Calculated**.
-
-1. Select **Save and edit**.
-
-   ![Add calculated column.](../media/lab-5-01-1.png)
-
-    > **NOTE:** You may need to disable the pop-up blocker in your browser and edit the Length of Project column.
-
-1. When a new browser window opens, select **+ Add condition**.
-
-1. Select **Scheduled Start** for **Field**.
-
-1. Select **Contains data** for **Operator**.
-
-1. Select the green check mark to save changes.
-
-    > **NOTE:** You may need to resize the window to see the check mark.
-
-1. Select **+ Add condition**.
-
-1. Select **Estimated End** for **Field**.
-
-1. Select **Contains data** for **Operator**.
-
-1. Select the green check mark.
-
-1. Select **+ Add Action**.
-
-1. Enter the following formula:
-
-       DIFFINDAYS(contoso_scheduledstartdate,contoso_estimatedenddate)
-
-    > **NOTE:** You can use intellisense to type and select the elements in the formula.
-
-1. Select the blue check mark to save changes.
-   
-    ![Add Choice column.](../media/lab-5-02.png)
-
-1. Select **SAVE AND CLOSE**.
-
-## Exercise 2 – Modify and add columns on the Project Funding table
+## Exercise 2: Modify and add columns on the Project Funding table
 
 In this exercise, you will be changing properties on existing columns on the Project Funding table in the Fabrikam Environmental solution and adding a new column.
 
-### Task 2.1 – Modify value range on an existing column
+### Task 2.1: Modify value range on an existing column
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -193,7 +130,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 1. Select **Save**.
 
 
-### Task 2.2 – Create a currency column
+### Task 2.2: Create a currency column
 
 1. Select **+ New column**.
 
@@ -211,16 +148,15 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Select **Save**.
 
-
-## Exercise 3 – Modify a lookup column on the Milestone table
+## Exercise 3: Modify a lookup column on the Milestone table
 
 In this exercise, you will be changing properties on a lookup column on the Milestone table in the Fabrikam Environmental solution. Lookup columns when created by a relationship do not have auditing enabled by default.
 
-### Task 3.1 – Modify audit on lookup column
+### Task 3.1: Modify audit on lookup column
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -242,30 +178,31 @@ In this exercise, you will be changing properties on a lookup column on the Mile
 
 1. Select **Save**.
 
-
-## Exercise 4 – Add a choice column
+## Exercise 4: Add a choice column
 
 In this exercise, you will be creating a choice column to replace the use of status reasons on the Milestone and Outcome tables.
 
 > **Note:** Status reasons cannot be changed in an editable grid.
 
-### Task 4.1 – Create choice
+### Task 4.1: Create choice
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
 1. Open the **Fabrikam Environmental** solution.
 
-1. In the **Objects** pane on the left, select **Choices**.
+1. In the **Objects** pane on the left, select **Choices (1)**.
 
-1. Select **+ New**, select **More**, and then select **Choice**.
+1. Select **+ New (2)**, select **More (3)**, and then select **Choice (4)**.
 
-1. Enter `Environmental Status` for **Display Name**.
+    ![Project table properties.](../media/pl200-p7t4p1.png)
 
-1. Enter `Planned` for **Label**.
+1. Enter `Environmental Status` for **Display Name (1)**.
+
+1. Enter `Planned` for **Label (2)**.
 
 1. Select **+ New choice**.
 
@@ -283,12 +220,11 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
 1. Enter `Cancelled` for **Label**.
 
-1. Select **Save**.
+1. Select **Save (3)**.
 
-    ![Choice column.](../media/lab-5-01-1.png)
+    ![Choice column.](../media/pl200-p7t4p2.png)
 
-
-### Task 4.2 – Add choice to Milestone table
+### Task 4.2: Add choice to Milestone table
 
 1. In the **Objects** pane on the left, expand **Tables**.
 
@@ -308,10 +244,7 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
 1. Select **Save**.
 
-    ![Add Choice column.](../media/lab-5-04-1.png)
-
-
-### Task 4.3 – Add choice to Outcome table
+### Task 4.3: Add choice to Outcome table
 
 1. In the **Objects** pane on the left, expand **Tables**.
 
@@ -321,26 +254,27 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
 1. Select **+ New column**.
 
-1. Enter `Outcome Status` for **Display Name**.
+1. Enter `Outcome Status` for **Display Name (1)**.
 
-1. Select **Choice** in the **Data type** drop-down and then select **Choice** again.
+1. Select **Choice** in the **Data type** drop-down and then select **Choice (2)** again.
 
-1. Select **Environmental status** in the **Sync this choice with** drop-down.
+1. Select **Environmental status (3)** in the **Sync this choice with** drop-down.
 
-1. Select **Planned** in the **Default choice** drop-down.
+1. Select **Planned (4)** in the **Default choice** drop-down.
 
-1. Select **Save**.
+1. Select **Save (5)**.
 
+    ![Choice column.](../media/pl200-p7t4p3.png)
 
-## Exercise 5 – Create columns on the Project Outcome table
+## Exercise 5: Create columns on the Project Outcome table
 
 In this exercise, you will be creating columns on the Project Outcome custom table that you created in an earlier lab.
 
-### Task 5.1 – Create columns
+### Task 5.1: Create columns
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -352,11 +286,13 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1. Select **+ New**, and then select **Column**.
 
-1. Enter `Stakeholders Notified` for **Display Name**.
+1. Enter `Stakeholders Notified` for **Display Name (1)**.
 
-1. Select **Choice** in the **Data type** drop-down and then select **Yes/no**.
+1. Select **Choice** in the **Data type** drop-down and then select **Yes/no (2)**.
 
-1. Select **Save**.
+1. Select **Save (3)**.
+
+    ![Choice column.](../media/pl200-p7t4p4.png)
 
 1. Select **+ New**, and then select **Column**.
 
@@ -368,20 +304,29 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 1. Select **+ New**, and then select **Column**.
 
-1. Enter `Comments` for **Display Name**.
+1. Enter `Comments` for **Display Name (1)**.
 
-1. Select **Text** in the **Data type** drop-down and then under **Multiple lines of text**, select **Plain text**.
+1. Select **Text** in the **Data type (2)** drop-down and then under **Multiple lines of text**, select **Plain text**.
 
-1. Select **Save**.
+1. Select the **Advanced options (3)**.
 
+1. Enter the `comments` in the **Schema name (4)**.
 
-### Task 5.2 – Publish changes
+1. Select **Save (5)**.
 
-1. In the solution select the **Overview** page.
+    ![Add connection role.](../media/pl200-p8t8p8.png)
 
-1. Select **Publish all customizations**.
+### Task 5.2: Publish changes
 
-    ![Overview.](../media/15-1.png)
+1. In the solution select the **Overview (1)** page.
 
-### Review
-In this lab, you modified and added columns on the project and project funding table, modified a lookup coloumn on the milestone table, added a choice coloumn and created coloumns on the project outcome table.
+1. Select **Publish all customizations (2)**.
+
+    ![Overview.](../media/pl200-p7t4p5.png)
+
+## Review
+In this lab, you modified existing columns and created new ones across multiple tables, including auto-number, currency, and choice fields. You configured column properties, enabled auditing, and standardized status tracking, enhancing data structure and consistency within the Dataverse solution. Great work!
+
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
+
+![](../media/pl200-gs-nextpage.png)

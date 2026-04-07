@@ -7,80 +7,103 @@ In this lab, you create environments for use during the remainder of the labs.
 ## Lab objectives
 In this lab, you will perform:
 
-+ Task 1: Create development environment
-+ Task 2: Create live environment
++ Exercise 1: Create environments
 
-## Exercise 1 - Create environments
+## Exercise 1: Create environments
 
 In this exercise, you will create a *Development* environment that you will do the majority of your lab work in and a *Live* environment to deploy solutions into.
 
-**Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will allow pop-up windows to appear as they should.
+>**Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will allow pop-up windows to appear as they should.
 
-### Task 1.1 – Create development environment
+### Task 1.1: Create development environment
 
-1.  Navigate to the Power Platform admin center https://aka.ms/ppac  and sign in with your Microsoft 365 credentials if prompted again.
+1.  Navigate to the Power Platform admin center `https://aka.ms/ppac`  and sign in with your Microsoft 365 credentials if prompted again.
+     
+    ![New environment.](../media/pl200-p3t1p1.png) 
 
-1.  Select **Get Started** or close the Welcome pop-up.
-   
-     ![New environment.](../media/ss1pl-200.png) 
+1.  Select **Manage (1)** and then select **Environments (2)** from the left navigation pane. There should be two environments, There should be a two environment, **OTU WA MOC XXXXXX**(default) and **ODL_User<inject key="DeploymentID"></inject>** (Developer).
 
-1.  Select **Environments** from the left navigation pane. There should be a single environment, OTU WA MOC XXXXXX(default).
+    ![New environment.](../media/pl200-p3t1p2.png)
 
-1.  Select **+ New**.
+1.  Now select **+ New**.
 
-    ![Environment in the Power Platform admin center.](../media/ss-3pl-200.png)
+    ![](../media/pl200-p3t2p2.png)
 
-1.  In the **Name** text box, enter **[my initials] Development**. (Example: PL Development).
+1.  In the **Name** text box, enter **PL Development (1)**.
 
-1.  In the **Type** drop down, select **Developer**.
+1.  In the **Type** drop down, select **Developer (2)**.
 
-1.  Leave all other selections as default and select **Next**.
+1.  Leave all other selections as default and select **Next (3)**.
 
-     ![New environment.](../media/pg-1ss-2-1.png)
+    ![](../media/pl200-p3t2p3.png)
 
 1.  On the **Add Dataverse** tab, select **Save**.
 
-    ![New environment.](../media/ss7.png)
+    ![New environment.](../media/pl200-p3t2p4.png)
 
-1.  Your **Development** environment should now show in the list of environments.
+1.  Wait while the Production environment takes a few minutes to provision. Select **Refresh** if needed. It is finished when the State shows as **Ready**.
 
-      ![Environment in the Power Platform admin center.](../media/pg-2ss-3.png)
+      ![Environment in the Power Platform admin center.](../media/pl200-p3t2p5.png)
 
-1. Your Development environment may take a few minutes to provision. Select **Refresh** if needed. When your environment **State** shows as **Ready**, select your **Development** environment by clicking on the ellipses (...) next to its name to expand the drop down menu and select **Settings**.
+### Task 1.2: Verify Classic solution explorer is enabled
 
-     ![Environment in the Power Platform admin center.](../media/pg-2ss-4.png)
+1. Navigate to environments in the Power Platform admin center `https://admin.powerplatform.microsoft.com/manage/environments`
 
-1.  Explore the different areas in **Settings** that you may be interested in but do not make any changes yet.
-   
-### Task 1.2 – Create live environment
+1. Select the **PL Development** environment. Click on the **ellipses (...) (1)** next to its name to expand the drop down menu and select **Settings (2)**.
+
+     ![Environment in the Power Platform admin center.](../media/pl200-p3t3p1.png)
+
+1.  Expand **Product (1)** and select **Behavior (2)**.
+
+    ![](../media/pl200-p3t3p2.png)
+
+1. Under **Display behavior**, verify that Show the **Switch to classic buttons in Power Apps** is set to **On**.
+
+    ![](../media/pl200-p3t3p3.png)
+
+1. If necessary, select **Save**. Otherwise, click on **Cancel** and then select **Confirm**.
+
+    ![](../media/pl200-p3t3p4.png)
+
+    ![](../media/pl200-p3t3p5.png)
+
+### Task 1.3: Create live environment
 
 1.  Navigate to environments in the Power Platform admin center <https://admin.powerplatform.microsoft.com/environments>.
 
 1.  Select **+ New**. 
 
-1.  In the **Name** text box, enter **[my initials] Live**. (Example: PL Live).
+    ![](../media/pl200-p3t4p1.png)
 
-1.  In the **Type** drop-down, select **Developer**.
+1.  In the **Name** text box, enter **PL Live (1)**.
 
-1.  Leave all other selections as default and select **Next**.
+1.  In the **Type** drop-down, select **Developer (2)**.
+
+1.  Leave all other selections as default and select **Next (3)**.
+
+    ![](../media/pl200-p3t4p2.png)
 
 1.  On the **Add Dataverse** tab, select **Save**.
 
-1.  You should now see three environments; OTU WA MOC XXXXXX (default), Development, and Live.
+1.  You should now see four environments.
 
-    ![Environments.](../media/pg-2ss-5-1.png)
-
-> **Note:** You will use the *Development* environment for all customizations in the labs. The *Live* environment will act as your test/production environment.
+    ![Environments.](../media/pl200-p3t4p3.png)
+   
+> **Note:** You will use the *PL Development* environment for all customizations in the labs. The *PL Live* environment will act as your test/production environment.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+>
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
  
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="30838ed1-cb43-4b49-9436-6b3675281953" />
   
 
-### Review
-In this lab, you created a development environment and a live environment.
+## Review
+In this lab, you created Development and Live environments in the Power Platform admin center. You configured Dataverse, verified environment settings, and prepared separate environments for customization and deployment, establishing a structured foundation for managing solutions across development and production stages. Great work!
 
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
+
+![](../media/pl200-gs-nextpage.png)
 

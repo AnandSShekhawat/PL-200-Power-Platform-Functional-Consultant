@@ -11,23 +11,111 @@ You will then export your customizations from the solution and import them into 
 ## Lab objectives
 In this lab, you will perform:
 
-+ Exercise 1: Change relationship behaviors
-+ Exercise 2: Add new relationship
-+ Exercise 3: Create new hierarchical relationship
-+ Exercise 4: Create Project Outcome relationships
-+ Exercise 5: Enable Connections
-+ Exercise 6: Create Calculated and rollup columns
-+ Exercise 7: Export and import solutions
-  
-## Exercise 1 – Change relationship behaviors
++ Exercise 1: Calculated and formula columns
++ Exercise 2: Change relationship behaviors
++ Exercise 3: Add new relationship
++ Exercise 4: Hierarchical relationship
++ Exercise 5: Project Outcome relationships
++ Exercise 6: Connections
++ Exercise 7: Calculated and rollup columns
++ Exercise 8: Solutions
+
+## Exercise 1: Calculated and formula columns
+
+In this exercise, you will create calculated and formula columns.
+
+First, we will create columns based on a single table to calculate and show the estimated number of days in a project and concatenate project type and region as the project summary. We will make these configurations on the Project table.
+
+### Task 1.1: Add a calculated column
+
+1.  In the **Objects** pane on the left, expand **Tables**, and select **Project**.
+
+1.  Under **Schema**, select **Columns**.
+
+1.  Select **+ New column**.
+
+1.  Enter `Length of Project` for **Display name (1)**.
+
+1.  Enter `Number of days` for **Description (2)**.
+
+1.  Select **Number** in the **Data type (3)** drop-down. The Data type will be set to **Whole Number** and the Format will be set to **None**.
+
+1.  Change the **Behavior (4)** drop-down to **Calculated**.
+
+1.  Select **Save and edit (5)**.
+
+    ![Add calculated column.](../media/pl200-p8t1p1.png)
+
+    > **Note:** You may need to disable the pop-up blocker in your browser first, then open the **Length of Project** column and select **Edit**.
+
+1.  When a new browser window opens, select **+ Add condition**.
+
+    ![Add calculated column.](../media/pl200-p8t1p2.png)
+
+1.  Select **Scheduled Start** for **Field**.
+
+1.  Select **Contains data** for **Operator**.
+
+1.  Select the green check mark to save changes.
+
+    ![Add calculated column.](../media/pl200-p8t1p3.png)
+
+    > **Note:** You may need to resize the window to see the check mark.
+
+1.  Select **+ Add condition**.
+
+1.  Select **Estimated End** for **Field**.
+
+1.  Select **Contains data** for **Operator**.
+
+1.  Select the green check mark.
+
+1.  Select **+ Add action**.
+
+    ![Add calculated column.](../media/pl200-p8t1p4.png)
+
+1.  Enter the following formula:
+
+    ```DIFFINDAYS(contoso_scheduledstartdate,contoso_estimatedenddate)```
+
+    > **NOTE:** You can use intellisense to type and select the elements in the formula.
+
+1.  Select the blue check mark to save changes.
+
+1.  Select **SAVE AND CLOSE**.
+
+    ![Add calculated column.](../media/pl200-p8t1p5.png)
+
+
+### Task 1.2: Add a formula column
+
+1.  In the **Objects** pane on the left, expand **Tables**, and expand **Project**.
+
+1.  Select **Columns** under **Project.**
+
+1.  Select **+ New column**.
+
+1.  Enter `Project Summary` for **Display name**.
+
+1.  Select **Formula** in the **Data type** drop-down.
+
+1.  Enter the following formula:
+
+    ```Concatenate('Project Type'.Name,"|",Region.'Region Name')```
+
+    > **NOTE:** You can use intellisense to type and select the elements in the formula.
+
+1.  Select **Save**.    
+
+## Exercise 2: Change relationship behaviors
 
 In this exercise, you will be modifying the cascade relationships for the project table. The Region to Project relationship will be changed to referential, restricted and the Project to Milestone relationship will be changed to custom.
 
-### Task 1.1 – Region-Project relationship
+### Task 2.1: Region-Project relationship
 
-1. Navigate to the Power Apps Maker portal `https://make.powerapps.com `
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -43,41 +131,41 @@ In this exercise, you will be modifying the cascade relationships for the projec
 
 1. In the **Many-to-one** pane that appears on the right-hand side of the screen, expand **Advanced options**.
 
-1. Change the **Delete** drop-down to **Restrict**.
+1. Change the **Delete** drop-down to **Restrict (1)**.
 
-1. Select **Done**.
+1. Select **Done (2)**.
 
-    ![Referential Restrict relationship.](../media/pg-6-1-1.png)
+    ![Add calculated column.](../media/pl200-p8t1p6.png)
 
-### Task 1.2 – Project-Milestone relationship
+### Task 2.2: Project-Milestone relationship
 
 1. In the **Project** table **Relationships**, select **Project** from the table. Note that this relationship uses **Project** as the Display name and **contoso_project_milestone** as the Name. 
 
-1. In the **One-to-many** pane that appears on the right-hand side of the screen, expand **Advanced options**.
+1. In the **One-to-many** pane that appears on the right-hand side of the screen, expand **Advanced options (1)**.
 
-1. Change the **Type of behavior** drop-down to **Custom (1)**.
+1. Change the **Type of behavior** drop-down to **Custom (2)**.
 
-1. Change the **Delete** drop-down to **Restrict (2)**.
+1. Change the **Delete** drop-down to **Restrict (3)**.
 
-1. Change the **Assign** drop-down to **Cascade Active (3)**.
+1. Change the **Assign** drop-down to **Cascade Active (4)**.
 
-1. Change the **Share** drop-down to **Cascade User-Owned (4)**.
+1. Change the **Share** drop-down to **Cascade User-Owned (5)**.
 
-1. Change the **Unshare** drop-down to **Cascade User-Owned (5)**.
+1. Change the **Unshare** drop-down to **Cascade User-Owned (6)**.
 
-1. Select **Done**.
+1. Select **Done(7)**.
 
-    ![Cascade relationship.](../media/pg-6-2-2-2.png)
+    ![Cascade relationship.](../media/pl200-p8t2p1.png)
 
-## Exercise 2 – Add new relationship
+## Exercise 3: Add new relationship
 
 In this exercise, you will create a new relationship between the Resource and Project tables to create a lookup for the Lead Resource on the Project.
 
-### Task 2.1 – Create new Project Lead relationship
+### Task 3.1: Create new Project Lead relationship
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -89,25 +177,27 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 1. Under **Schema**, select **Relationships**.
 
-1. Select **+ New relationship** and choose **Many-to-one**.
+1. Select **+ New relationship (1)** and choose **Many-to-one (2)**.
 
-1. In the **Many-to-one** pane that appears on the right-hand side of the screen, select **Resource** in the **Related (One)** drop-down.
+    ![Cascade relationship.](../media/pl200-p8t3p1.png)
 
-1. Enter `Project Lead` for **Lookup column display name**.
+1. In the **Many-to-one** pane that appears on the right-hand side of the screen, select **Resource (1)** in the **Related (One)** drop-down.
 
-1. Enter `projectleadresourceid` for **Lookup column name**.
+1. Enter `Project Lead` for **Lookup column display name (2)**.
+
+1. Enter `projectleadresourceid` for **Lookup column name (3)**.
 
 1. Expand **General**.
 
-1. Enter `resource_project_projectlead` for **Relationship name**.
+1. Enter `resource_project_projectlead` for **Relationship name (4)**.
 
 1. Expand **Advanced options**.
 
-1. Change the **Delete** drop-down to **Restrict**.
+1. Change the **Delete (5)** drop-down to **Restrict**.
 
-1. Select **Done**.
+1. Select **Done (6)**.
 
-    ![Referential Restrict relationship.](../media/pg-6-3-3-3.png)
+    ![Referential Restrict relationship.](../media/pl200-p8t3p2.png)
 
 1. In the **Objects** pane on the left, select **Columns** for the **Project** table.
 
@@ -119,15 +209,15 @@ In this exercise, you will create a new relationship between the Resource and Pr
 
 1. Select **Save**.
 
-## Exercise 3 – Hierarchical relationship
+## Exercise 4: Hierarchical relationship
 
 In this exercise, you will create a new hierarchical relationship on the region table.
 
-### Task 3.1 – Create new hierarchical relationship
+### Task 4.1: Create new hierarchical relationship
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -157,17 +247,15 @@ In this exercise, you will create a new hierarchical relationship on the region 
 
 1. Select **Done**.
 
-    ![Hierarchical relationship.](../media/pg-6-4-4.png)
-
-## Exercise 4 – Project Outcome relationships
+## Exercise 5: Project Outcome relationships
 
 In this exercise, you will create two many-to-one relationships for the Project Outcome table to the Project and Outcome tables. These relationships will be used to replace the many-to-many relationship between the Project and Outcome tables.
 
-### Task 4.1 – Create new relationship to Project
+### Task 5.1: Create new relationship to Project
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -181,23 +269,25 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Select **+ New relationship** and then select **Many-to-one**.
 
-1. In the **Many-to-one** pane that appears on the right-hand side of the screen, select **Project** in the **Related (One)** drop-down.
+1. In the **Many-to-one** pane that appears on the right-hand side of the screen, select **Project (1)** in the **Related (One)** drop-down.
 
-1. Enter `Project` for **Lookup column display name**.
+1. Enter `Project` for **Lookup column display name (2)**.
 
-1. Enter `projectid` for **Lookup column name**.
+1. Enter `projectid` for **Lookup column name (3)**.
 
 1. Expand **General**.
 
-1. Enter `project_projectoutcome` for **Relationship name**.
+1. Enter `project_projectoutcome` for **Relationship name (4)**.
 
 1. Expand **Advanced options**.
 
-1. Change the **Type of behavior** drop-down to **Parental**.
+1. Change the **Type of behavior** drop-down to **Parental (5)**.
 
-1. Select **Done**.
+1. Select **Done (6)**.
 
-### Task 4.2 – Create new relationship to Outcome
+    ![Cascade relationship.](../media/pl200-p8t5p1.png)
+
+### Task 5.2: Create new relationship to Outcome
 
 1. Select **+ New relationship** and then select **Many-to-one**.
 
@@ -225,15 +315,15 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Select **Done**.
 
-### Task 4.3 – Set required and enable auditing on new lookup columns
+### Task 5.3: Set required and enable auditing on new lookup columns
 
 1. In the **Objects** pane on the left, select **Columns** for the **Project Outcome** table.
 
 1. Select the **Project** column.
 
-1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, Change the **Required** drop-down to **Business required**.
 
-1. Change the **Required** drop-down to **Business required**.
+1. Expand **Advanced options** and scroll down.
 
 1. Check the **Enable auditing** box.
 
@@ -241,23 +331,77 @@ In this exercise, you will create two many-to-one relationships for the Project 
 
 1. Select the **Outcome** column.
 
-1. In the **Edit column** pane that appears on the right-hand side of the screen, expand **Advanced options** and scroll down.
+1. In the **Edit column** pane that appears on the right-hand side of the screen, change the **Required** drop-down to **Business required**.
 
-1. Change the **Required** drop-down to **Business required**.
+1. Expand **Advanced options** and scroll down.
 
 1. Check the **Enable auditing** box.
 
 1. Select **Save**.
 
-## Exercise 5 – Connections
+### Task 5.4: Mappings
+
+1.  In the **Fabrikam Environmental** solution, select the **Objects** page and select **All**.
+
+1.  Select the ellipsis menu **(...) (1)** and select **Switch to classic (2)**.
+
+    ![Cascade relationship.](../media/pl200-p8t5p2.png)
+
+1.  In the legacy **Solution Explorer**, expand **Entities**.
+
+    ![Cascade relationship.](../media/pl200-p8t5p3.png)
+
+1.  Expand **Project**.
+
+1.  Select **1:N Relationships**.
+
+1.  Select the relationship between **Project** and **Project Outcome**.
+
+    ![One to many relationships in Solution Explorer.](../media/pl200-p8t5p4.png)
+
+1.  Select **More Actions** and select **Edit** from the top menu bar.
+
+1.  Select **Mappings (1)**.
+
+1.  Select **New (2)**.
+
+    ![One to many relationships in Solution Explorer.](../media/pl200-p8t5p5.png)
+
+1.  In the left-hand side, select **contoso_projecttitle (1)**.
+
+1.  In the right-hand side, select **contoso_title (2)**.
+
+1.  Select **OK (3)**.
+
+    ![One to many relationships in Solution Explorer.](../media/pl200-p8t5p6.png)
+
+1.  Select **New**.
+
+1.  In the left-hand side, select **contoso_projectsummary (1)**.
+
+1.  In the right-hand side, select **contoso_comments (2)**.
+
+1.  Select **OK (3)**.
+
+    ![One to many relationships in Solution Explorer.](../media/pl200-p8t5p7.png)
+
+1.  Select **Save and Close (1)**. Select **Publish All Customizations (2)**.
+
+    ![One to many relationships in Solution Explorer.](../media/pl200-p8t5p9.png)
+
+    ![One to many relationships in Solution Explorer.](../media/pl200-p8t5p8.png)
+
+1.  Close the **Solutions Explorer** tab.
+
+## Exercise 6: Connections
 
 In this exercise, you will enable connections for the resource and milestone tables.
 
-### Task 5.1 – Enable connections on Resource
+### Task 6.1: Enable connections on Resource
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -275,7 +419,7 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select **Save**.
 
-### Task 5.2 – Enable connections on Milestone
+### Task 6.2: Enable connections on Milestone
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -297,29 +441,31 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select **Save**.
 
-### Task 5.3 – Publish changes
+### Task 6.3: Publish changes
 
-1. In the solution, select the **Overview** page.
+1. In the solution, select the **Overview (1)** page.
  
-1. Select **Publish all customizations**.
+1. Select **Publish all customizations (2)**.
  
-    ![Overview.](../media/15-1.png)
+    ![Overview.](../media/pl200-p8t6p1.png)
 
-### Task 5.4 – Add connection roles
+### Task 6.4: Add connection roles
 
 1. In the **Fabrikam Environmental** solution, select the **Objects** page and select **All**.
 
-1. Select **+ New** > **More** and then select **Connection Role**.
+1. Select **+ New (1)** > **More (2)** and then select **Connection Role (3)**.
 
-1. Enter `Contributor` for **Name**.
+    ![Overview.](../media/pl200-p8t6p2.png)
 
-1. Select the **Only these record types** radio button.
+1. Enter `Contributor` for **Name (1)**.
 
-1. Select **Resource**.
+1. Select the **Only these record types (2)** radio button.
 
-1. Select the **Save** icon.
+1. Select **Resource (3)**.
 
-    ![Add connection role.](../media/pg-6-7-7.png)
+1. Select the **Save (4)** icon.
+
+    ![Add connection role.](../media/pl200-p8t6p3.png)
 
 1. Under **Matching connection roles**, select **New**.
 
@@ -337,6 +483,8 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Select **Done**.
 
+    ![Add connection role.](../media/pl200-p8t6p4.png)
+
 1. Select **+ New** > **More** and then select **Connection Role**.
 
 1. Enter `Advisor` for **Name**.
@@ -349,25 +497,25 @@ In this exercise, you will enable connections for the resource and milestone tab
 
 1. Under **Matching connection roles**, select **Add Existing**.
 
-1. Add **Contributed to** to the **selected records** by selecting the row using the **Select** button.
+1. Add **Contributed to (1)** to the **selected records** by selecting the row using the **Select (2)** button.
 
-1. Select **Add**.
+1. Select **Add (3)**.
 
-   ![Add connection role.](../media/20-1.png)
+   ![Add connection role.](../media/pl200-p8t6p5.png)
 
 1. Select the **Save and Close** icon.
 
 1. Select **Done**.
 
-## Exercise 6 – Calculated and rollup columns
+## Exercise 7: Calculated and rollup columns
 
 In this exercise, you will use relationships to create calculated and rollup fields. The calculated column will add the email address for the approver to the outcome table. The rollup column will sum the funding values of projects.
 
-### Task 6.1 – Calculated column for a many-to-one relationship
+### Task 7.1: Calculated column for a many-to-one relationship
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in your **Development** environment.
+1. Make sure you are in your **PL Development** environment.
 
 1. Select **Solutions**.
 
@@ -391,6 +539,10 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Select **Save and edit**.
 
+    >Note: If the new window doesn't open, then go to the column **Approver Email** and then click on **Edit**.
+
+    ![Add connection role.](../media/pl200-p8t7p1.png)
+
 1. When the new browser window opens, select **+ Add condition**.
 
 1. Select **Approver** for **Field**.
@@ -411,11 +563,11 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Select the blue check mark.
 
-    ![Add calculated column using a relationship.](../media/pg-6-8-8.png)
-
 1. Select **SAVE AND CLOSE**.
 
-### Task 6.2 – Rollup column for the project one-to-many relationship
+    ![Add connection role.](../media/pl200-p8t7p2.png)
+
+### Task 7.2: Rollup column for the project one-to-many relationship
 
 1. In the **Objects** pane on the left, expand **Tables**.
 
@@ -457,10 +609,9 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Select **SAVE AND CLOSE**.
 
-    ![Add rollup column.](../media/pg-6-8-8.png)
+    ![Add connection role.](../media/pl200-p8t7p3.png)
 
-
-### Task 6.3 – Publish changes
+### Task 7.3: Publish changes
 
 1. In the solution, select the **Overview** page.
    
@@ -469,31 +620,37 @@ In this exercise, you will use relationships to create calculated and rollup fie
 
 1. Select **Publish all customizations**.
 
-## Exercise 7 – Solutions
+## Exercise 8: Solutions
 
 In this exercise, you will export the solution from the Development environment and import it into the Live environment.
 
-### Task 7.1 – Solution checker
+### Task 8.1: Solution checker
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Development** environment.
+1. Make sure you are in the **PL Development** environment.
 
-1. Select **Solutions**.
+1. Select **Solutions (1)**.
 
-1. Select the **Fabrikam Environmental** solution row but do not open it.
+1. Select the **Fabrikam Environmental (2)** solution row but do not open it.
 
-1. Select **Solution checker** > **Run**.
+1. Select **Solution checker (3)** > **Run (4)**.
+
+    ![Add connection role.](../media/pl200-p8t8p1.png)
 
 1. Wait a few minutes for the solution checker to complete.
+
+    >**Note:** If if the checker is still running after 15 minutes, try refreshing the tab.
 
 1. Select **Solution checker** > **View results**.
 
 1. You should see several warnings for the canvas app in the solution.
 
+    ![Add connection role.](../media/pl200-p8t8p2.png)
+
 1. Select the **back arrow** to return to solutions.
 
-### Task 7.2 – Export managed solution
+### Task 8.2: Export managed solution
 
 1. Select the **Fabrikam Environmental** solution row but do not open it.
 
@@ -503,24 +660,29 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The version number should have been incremented to **1.1.11.4**.
 
-1. Select **Managed** for **Export As**.
+1. Change the version number to `1.1.11.6` **(1)**.
 
-1. Select **Export**.
+1. Select **Managed (2)** for **Export As**.
+
+1. Select **Export (3)**.
+
+    ![Add connection role.](../media/pl200-p8t8p3.png)
 
 1. The export will be prepared in the background. When the solution is ready, select the **Download** button.
 
-### Task 7.3 – Export unmanaged solution
+    ![Add connection role.](../media/pl200-p8t8p4.png)
+
+### Task 8.3: Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution row but do not open it.
 
 1. Select **Export Solution**.
 
 1. Select **Next**.
-   
-   ![Add rollup column.](../media/26-1.png)
-   
 
-1. The version number should have been incremented to **1.1.11.5**.
+1. The version number should have been incremented to **1.1.11.7**.
+
+1. Change the version number to `1.1.11.6`.
 
 1. Select **Unmanaged** for **Export As**.
 
@@ -529,17 +691,19 @@ In this exercise, you will export the solution from the Development environment 
 1. The export will be prepared in the background, when the solution is ready click the **Download** button.
 
 
-### Task 7.4 – Import managed solution
+### Task 8.4: Import managed solution
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 
-1. Select the **Live** environment from the list.
+1. Select the **PL Live** environment from the list.
 
-1. Select **Solutions**.
+1. Select **Solutions (1)**.
 
-1. Select **Import solution**.
+1. Select **Import solution (2)**.
 
-1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_4_managed.zip** and select **Open**.
+    ![Add connection role.](../media/pl200-p8t8p6.png)
+
+1. Select **Browse**, change to the **Downloads** folder and select **FabrikamEnvironmental_1_1_11_6_managed.zip** and select **Open**.
 
 1. Select **Next**.
 
@@ -547,25 +711,26 @@ In this exercise, you will export the solution from the Development environment 
 
     You need to create connections for the solution.
 
-1. For the **Approvals** connection, select **Select a connection** > **+ New connection**.
-
-1. A new tab will open in the browser. Select **Create**.
-
-1. Switch back to the tab where you are importing the solution and select **Refresh**.
-
-1. For the **Microsoft Dataverse** connection, select **Select a connection** > **+ New connection**.
-
-1. A new tab will open in the browser. Select **Create**. If prompted, sign in with your Microsoft 365 credentials.
-
-1. Switch back to the tab where you are importing the solution and select **Refresh**.
-
 1. Both connections should be selected.
+
+1. Select **Next**.
 
 1. Select **Import**. The solution will import in the background.
 
+    ![Add connection role.](../media/pl200-p8t8p7.png)
+
+
 ## Challenge (Optional)
 
-Under Processes, examine the classic workflow, Project Funding Name, and create a new workflow to set the Title column on the Project Outcome table, when a new record is created or when a project or an outcome lookup column is changed.
+Under **Processes**, examine the classic workflow **Project Funding Name.**
 
-### Review
-In this lab, you have changed relationship behaviours, added new relationship, created new hierarichial and project outcome relationships, enabled connections, created calculated and rollup fields, exported and imported solutions.
+Create a new workflow that meets the following requirements: 
+- Sets the **Title** column on the Project Outcome table when a new record is created or when a project or an outcome lookup column is changed.
+- Sets the column to a concatenation based on the relationships you configured in this lab (see examples in the Project Funding Name and Project Resource Name workflows). 
+
+## Review
+In this lab, you created and modified relationships, configured cascade behaviors, and built hierarchical and lookup relationships. You also implemented calculated and rollup columns, enabled connections, and enhanced data modeling. Finally, you validated and deployed changes by exporting and importing solutions across environments. Great work!
+
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
+
+![](../media/pl200-gs-nextpage.png)

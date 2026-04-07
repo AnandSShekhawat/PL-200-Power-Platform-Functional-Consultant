@@ -1,4 +1,4 @@
-# Lab 2.8: Audit 
+# Lab: Audit (Optional)
 
 ## Scenario
 
@@ -7,48 +7,48 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 In this practice lab, you will enabling auditing to track data changes in Microsoft Dataverse.
 
 ## Lab objectives
-In this lab, you will:
+In this lab, you will perform:
 
-+ Task 1: Enable auditing
++ Exercise 1: Enable auditing
 
-## Exercise 1 – Enable auditing
+## Exercise 1: Enable auditing
 
 In this exercise, you will enable auditing for your environment. In earlier labs you have enabled auditing for tables and columns.
 
-### Task 1.1 – Audit settings
+### Task 1.1: Audit settings
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
-1. Select **Environments** from the left navigation pane.
+1. Select **Manage** and then **Environments** from the left navigation pane.
 
-1. Select the **Development** environment.
+1. Select the **PL Development** environment.
 
 1. Select **Settings**.
 
-1. Expand **Audit and logs**.
+1. Expand **Audit and logs (1)**.
 
-1. Select **Audit settings**.
+1. Select **Audit settings (2)**.
 
-    ![](../media/mod-02;lab-08(1).png)
+    ![](../media/pl200-p14t1p1.png)
 
-1. Check the **Start Auditing** box.
+1. Check the **Start Auditing (1)** box.
 
-1. Select **90 days** in the **Retain these logs for** drop-down.
+1. Select **Save (2)**.
 
-1. Select **Save**.
-
-    ![](../media/mod-02;lab-08(2).png)
+    ![](../media/pl200-p14t1p2.png)
 
 1. Select **Settings** in the breadcrumb at the top of the screen.
-
-    ![](../media/mod-02;lab-08(3).png)
 
 1. Expand **Audit and logs**.
 
 1. Select **Audit summary view** to view the audited operations so far.
 
-    ![](../media/mod-02;lab-08(4).png)
+    ![](../media/pl200-p14t1p3.png)
 
-### Review
-In this lab, you activated auditing to monitor and record data modifications within Microsoft Dataverse.
+## Review
+In this lab, you enabled auditing at the environment level in Microsoft Dataverse to track and monitor data changes. You configured audit settings and reviewed audit logs to understand how system activities and data modifications are recorded. Great work!
+
+### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
+
+![](../media/pl200-gs-nextpage.png)
 
