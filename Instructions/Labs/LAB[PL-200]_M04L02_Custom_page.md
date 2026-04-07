@@ -8,6 +8,12 @@ You have been assigned to add a custom page to a model-driven app.
 
 This lab will take approximately **60** minutes to complete. 
 
+## Lab Objectives
+In this lab, you'll be performing the following tasks:
+
++ Exercise 1 – Add an image to the Resource table
++ Exercise 2 – Build custom page
+
 ## Exercise 1 – Add an image to the Resource table
 
 In this exercise, you will be adding an image column to the Resource table.
@@ -211,3 +217,8 @@ In this task, you will add the custom page to a model-driven app.
 1. Select **Project Resources page** under **Projects** and verify that resources are displayed and then **close** the app and app designer browser tabs.
 
 1. Select **Done**.
+
+## Review
+
+
+![](../media/pl200-gs-nextpage.png)

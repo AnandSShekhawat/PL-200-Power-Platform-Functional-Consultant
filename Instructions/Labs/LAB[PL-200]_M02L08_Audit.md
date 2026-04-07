@@ -1,4 +1,4 @@
-# Lab 2.8: Audit (Optional)
+# Lab: Audit (Optional)
 
 ## Scenario
 
@@ -11,11 +11,11 @@ In this lab, you will:
 
 + Task 1: Enable auditing
 
-## Exercise 1 – Enable auditing
+## Exercise 1: Enable auditing
 
 In this exercise, you will enable auditing for your environment. In earlier labs you have enabled auditing for tables and columns.
 
-### Task 1.1 – Audit settings
+### Task 1.1: Audit settings
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
@@ -25,28 +25,28 @@ In this exercise, you will enable auditing for your environment. In earlier labs
 
 1. Select **Settings**.
 
-1. Expand **Audit and logs**.
+1. Expand **Audit and logs (1)**.
 
-1. Select **Audit settings**.
+1. Select **Audit settings (2)**.
 
-    ![](../media/mod-02;lab-08(1).png)
+    ![](../media/pl200-p14t1p1.png)
 
-1. Check the **Start Auditing** box.
+1. Check the **Start Auditing (1)** box.
 
-1. Select **Save**.
+1. Select **Save (2)**.
 
-    ![](../media/mod-02;lab-08(2).png)
+    ![](../media/pl200-p14t1p2.png)
 
 1. Select **Settings** in the breadcrumb at the top of the screen.
-
-    ![](../media/mod-02;lab-08(3).png)
 
 1. Expand **Audit and logs**.
 
 1. Select **Audit summary view** to view the audited operations so far.
 
-    ![](../media/mod-02;lab-08(4).png)
+    !![](../media/pl200-p14t1p3.png)
 
 ### Review
 In this lab, you activated auditing to monitor and record data modifications within Microsoft Dataverse.
+
+![](../media/pl200-gs-nextpage.png)
 

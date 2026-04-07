@@ -17,12 +17,12 @@ In this lab, you will perform:
 + Exercise 2: Change table properties
 + Exercise 3: Create a custom table
   
-## Exercise 1 – Explore the data model
+## Exercise 1: Explore the data model
 
 In this exercise, you will be examining the tables in the Fabrikam Environmental solution. Take some time to familiarize yourself with your client, Fabrikam's, data model and existing business rules. 
 
 
-### Task 1.1 – Examine tables
+### Task 1.1: Examine tables
 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -60,12 +60,12 @@ In this exercise, you will be examining the tables in the Fabrikam Environmental
 
 1.  Expand the **Project Resource** table and examine its columns and relationships.
 
-## Exercise 2 – Change table properties
+## Exercise 2: Change table properties
 
 In this exercise, you will be updating the properties on the Project table to allow users to add attachments and use activities with project records. You will also enable audit and other search on other tables in the solution.
 
 
-### Task 2.1 – Enable attachments and activities on the project table
+### Task 2.1: Enable attachments and activities on the project table
 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -97,7 +97,7 @@ In this exercise, you will be updating the properties on the Project table to al
 
      ![Project table.](../media/pl200-p6t2p3.png)
 
-### Task 2.2 – Enable audit and search on the Milestone table
+### Task 2.2: Enable audit and search on the Milestone table
 
 1.  Select the **Milestone** table.
 
@@ -114,7 +114,7 @@ In this exercise, you will be updating the properties on the Project table to al
     ![Project table.](../media/pl200-p6t2p4.png)
 
 
-### Task 2.3 – Enable audit on the Outcome table
+### Task 2.3: Enable audit on the Outcome table
 
 1.  Select the **Outcome** table.
 
@@ -129,7 +129,7 @@ In this exercise, you will be updating the properties on the Project table to al
     ![Project table.](../media/pl200-p6t2p5.png)
 
 
-### Task 2.4 – Enable audit on the Project Funding table
+### Task 2.4: Enable audit on the Project Funding table
 
 1.  Select the **Project Funding** table.
 
@@ -142,14 +142,14 @@ In this exercise, you will be updating the properties on the Project table to al
 1.  Select **Save**.
 
 
-## Exercise 3 – Create a custom table
+## Exercise 3: Create a custom table
 
 In this exercise, you will be creating a new custom table named Project Outcome. This table will link outcomes to projects. Currently there is a many-to-many relationship between Project and Outcome. This table will be used in place of this relationship.
 
 In later labs you will be adding columns and relationships to this custom table.
 
 
-### Task 3.1 – Create custom table
+### Task 3.1: Create custom table
 
 1.  In the **Objects** pane on the left, select **Tables (1)**.
 
@@ -188,7 +188,7 @@ In later labs you will be adding columns and relationships to this custom table.
     ![Project table properties.](../media/pl200-p6t3p4.png)
    
 
-### Task 3.2 – Publish changes
+### Task 3.2: Publish changes
 
 1.  In the solution select the **Overview (1)** page.
 
@@ -205,3 +205,5 @@ In later labs you will be adding columns and relationships to this custom table.
 
 ### Review
 In this lab, you explored the data model, changed the table properties and created a custom table.
+
+![](../media/pl200-gs-nextpage.png)

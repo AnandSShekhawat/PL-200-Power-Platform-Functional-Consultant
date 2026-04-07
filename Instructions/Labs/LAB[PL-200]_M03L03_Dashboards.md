@@ -1,4 +1,4 @@
-# Lab 3.3: Dashboards
+# Lab: Dashboards (Optional)
 
 ## Scenario
 
@@ -9,11 +9,11 @@ In this practice lab, you will be creating an interactive dashboard and adding i
 ## Lab objectives
 In this lab, you will perform:
 
-+ Exercise 1: Configuring Dashboard security
++ Exercise 1: Dashboard security
 + Exercise 2: Create an interactive dashboard
 + Exercise 3: Enable Power BI quick reports
 
-## Exercise 1 – Dashboard security
+## Exercise 1: Dashboard security
 
 In this exercise, you will assign security roles to the existing dashboard.
 
@@ -50,11 +50,11 @@ In this exercise, you will assign security roles to the existing dashboard.
     ![](../media/pl200-p18t1p2.png)
 
 
-## Exercise 2 – Create an interactive dashboard
+## Exercise 2: Create an interactive dashboard
 
 In this exercise, you will create an interactive dashboard for Projects.
 
-### Task 2.1 – Create a dashboard
+### Task 2.1: Create a dashboard
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -113,11 +113,11 @@ In this exercise, you will create an interactive dashboard for Projects.
 1. Select **Publish all customizations**.
 
 
-## Exercise 3 – Enable Power BI quick reports
+## Exercise 3: Enable Power BI quick reports
 
 In this exercise, you will be enabling the feature that uses Power BI to create a report from a model-driven app view.
 
-### Task 3.1 – Environmental Project Delivery app settings
+### Task 3.1: Environmental Project Delivery app settings
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -153,3 +153,5 @@ In this exercise, you will be enabling the feature that uses Power BI to create 
 
 ### Review
 In this lab, you configured dashboard security, created an interactive dashboard, enabled Power BI report.
+
+![](../media/pl200-gs-nextpage.png)

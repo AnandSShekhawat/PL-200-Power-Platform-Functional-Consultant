@@ -7,16 +7,15 @@ In this lab, you create environments for use during the remainder of the labs.
 ## Lab objectives
 In this lab, you will perform:
 
-+ Task 1: Create development environment
-+ Task 2: Create live environment
++ Exercise 1: Create environments
 
-## Exercise 1 - Create environments
+## Exercise 1: Create environments
 
 In this exercise, you will create a *Development* environment that you will do the majority of your lab work in and a *Live* environment to deploy solutions into.
 
 **Note:** Depending on the browser that you are using, it is suggested that you disable any pop-up blockers that maybe enabled. This will allow pop-up windows to appear as they should.
 
-### Task 1.1 – Create development environment
+### Task 1.1: Create development environment
 
 1.  Navigate to the Power Platform admin center `https://aka.ms/ppac`  and sign in with your Microsoft 365 credentials if prompted again.
      
@@ -46,9 +45,9 @@ In this exercise, you will create a *Development* environment that you will do t
 
       ![Environment in the Power Platform admin center.](../media/pl200-p3t2p5.png)
 
-### Task 1.2 – Verify Classic solution explorer is enabled
+### Task 1.2: Verify Classic solution explorer is enabled
 
-1. Navigate to environments in the Power Platform admin center `https://admin.powerplatform.microsoft.com/manage/environments`.
+1. Navigate to environments in the Power Platform admin center `https://admin.powerplatform.microsoft.com/manage/environments`
 
 1. Select the **PL Development** environment. Click on the **ellipses (...) (1)** next to its name to expand the drop down menu and select **Settings (2)**.
 
@@ -68,7 +67,7 @@ In this exercise, you will create a *Development* environment that you will do t
 
     ![](../media/pl200-p3t3p5.png)
 
-### Task 1.3 – Create live environment
+### Task 1.3: Create live environment
 
 1.  Navigate to environments in the Power Platform admin center <https://admin.powerplatform.microsoft.com/environments>.
 
@@ -103,4 +102,5 @@ In this exercise, you will create a *Development* environment that you will do t
 ### Review
 In this lab, you created a development environment and a live environment.
 
+![](../media/pl200-gs-nextpage.png)
 

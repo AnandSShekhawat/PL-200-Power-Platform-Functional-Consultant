@@ -8,15 +8,14 @@ If you are being provided with a tenant as a part of an instructor-led training 
 ## Lab objectives
 In this lab, you will perform:
 
-+ Task 1: Acquire Power Platform trial tenant
-+ Task 2: Verify your Power Apps license has been assigned
-+ Task 3: Assign Power Apps licenses to other users
++ Exercise 1: Access Microsoft Power Platform
++ Exercise 2: Assign License to the users
   
-## Exercise 1 – Acquire a Microsoft Power Platform trial
+## Exercise 1: Access Microsoft Power Platform
 
 In this exercise, you will add a Power Apps trial to the tenant and assign licenses to users.
 
-### Task 1.1 – Sign in to Power Apps
+### Task 1.1: Sign in to Power Apps
 
 1.  Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. 
 
@@ -48,5 +47,38 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
     ![](../media/pl200-p2t1p6.png)
 
+## Exercise 2: Assign License to the users
+
+In this exercise, you'll assign license to the following user through the Microsoft 365 admin center.
+
+### Task 2.1: Assign license to users
+
+1. Navigate to the Microsoft 365 admin center using the following URL: `https://admin.cloud.microsoft`
+
+1. If prompted, sign in using the following credentials:
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+1. From the left navigation pane, select **Users (1)** and then select **Active users (2)**.
+
+    ![](../media/pl200-p2t2p1.png)
+
+1. From the list of Active users, select **Alex Wilber (1)**. In the **Alex Wilber** pane on the right, select the **Licenses and apps (2)** tab and then check the box next to **Microsoft Power Apps for Developer (3)** and then select **Save changes(4)**. 
+
+    ![](../media/pl200-p2t2p2.png)
+
+1. Now close the pane using the **X** icon on the top right.
+
+    ![](../media/pl200-p2t2p3.png)
+
+1. Now perform the **step 3 and 4** for the following users as well to assign them **Microsoft Power Apps for Developer** license :
+
+    - Megan Brown
+    - Patti Fernandez
+
 ### Review
 In this lab, you acquired Power Platform trial tenant,verified your Power Apps license and assigned Power Apps licenses to other users.
+
+![](../media/pl200-gs-nextpage.png)

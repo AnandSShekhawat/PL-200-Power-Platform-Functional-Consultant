@@ -381,4 +381,6 @@ In this exercise, you will add a list of Milestone rows to the page, add a form 
 1. Test viewing and editing Milestones.
 
 ### Review
-In this lab, you explored,configured a Power Pages site and exposed a datverse data
+In this lab, you explored,configured a Power Pages site and exposed a datverse data.
+
+![](../media/pl200-gs-nextpage.png)

@@ -26,11 +26,11 @@ In this lab, you will perform:
 + Exercise 9: Copy Outcome form
 + Exercise 10: Modify model-driven apps
 
-## Exercise 1 – Edit Project forms
+## Exercise 1: Edit Project forms
 
 In this exercise, you will make changes to the forms for the Project table.
 
-### Task 1.1 – Modify the Project main form
+### Task 1.1: Modify the Project main form
 
 In this task, you will perform the following changes to the form:
 
@@ -86,7 +86,7 @@ In this task, you will perform the following changes to the form:
 
    ![](../media/pl200-p15t1p5.png)
 
-### Task 1.2 – Add Timeline control to main form
+### Task 1.2: Add Timeline control to main form
 
 In this task, you will perform the following changes to the form:
 
@@ -142,7 +142,7 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
-### Task 1.3 – Outcome sub-grid on main form
+### Task 1.3: Outcome sub-grid on main form
 
 In this task, you will perform the following changes to the form:
 
@@ -162,7 +162,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-### Task 1.4 – Modify the Project quick view form
+### Task 1.4: Modify the Project quick view form
 
 In this task, you will perform the following changes to the form:
 
@@ -212,11 +212,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 2 – Edit Program form
+## Exercise 2: Edit Program form
 
 In this exercise, you will add filtering on a lookup field on the Program table form.
 
-### Task 2.1 – Add filtering to lookup
+### Task 2.1: Add filtering to lookup
 
 In this task, you will perform the following changes to the form:
 
@@ -258,11 +258,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 3 – Edit Program Funding form
+## Exercise 3: Edit Program Funding form
 
 In this exercise, you will add new columns to the Project Funding table form.
 
-### Task 3.1 – Add columns to form
+### Task 3.1: Add columns to form
 
 In this task, you will perform the following changes to the form:
 
@@ -298,11 +298,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-### Task 3.2 – Add form control
+### Task 3.2: Add form control
 
 In this task, you will perform the following changes to the form:
 
-- add form component to embed the account form
+- Add form component to embed the account form
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
@@ -352,11 +352,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 4 – Edit Region form
+## Exercise 4: Edit Region form
 
 In this exercise, you will add the hierarchical relationship to the Region table form.
 
-### Task 4.1 – Add parent lookup and child sub-grid to the form
+### Task 4.1: Add parent lookup and child sub-grid to the form
 
 In this task, you will perform the following changes to the form:
 
@@ -409,11 +409,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 5 – Project Resource Quick Create form
+## Exercise 5: Project Resource Quick Create form
 
 In this exercise, you will create a Quick Create form for the Project Resource table form.
 
-### Task 5.1 – Enable Quick Create form
+### Task 5.1: Enable Quick Create form
 
 In this task, you will enable the Project Resource table for quick create.
 
@@ -439,7 +439,7 @@ In this task, you will enable the Project Resource table for quick create.
 
    ![](../media/pl200-p15t5p1.png)
 
-### Task 5.2 – Create Quick Create form
+### Task 5.2: Create Quick Create form
 
 In this task, you will create a quick create form.
 
@@ -477,11 +477,11 @@ In this task, you will create a quick create form.
 
 1. Select **🡠 Back**.
 
-## Exercise 6 – Edit Milestone form
+## Exercise 6: Edit Milestone form
 
 In this exercise, you will add the status choice column to to the Milestone table form.
 
-### Task 6.1 – Add columns to the form
+### Task 6.1: Add columns to the form
 
 In this task, you will perform the following changes to the form:
 
@@ -516,11 +516,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 7 – Edit Outcome form
+## Exercise 7: Edit Outcome form
 
 In this exercise, you will add the status choice column to to the Outcome table form.
 
-### Task 7.1 – Add columns to the form
+### Task 7.1: Add columns to the form
 
 In this task, you will perform the following changes to the Outcome form:
 
@@ -560,11 +560,11 @@ In this task, you will perform the following changes to the Outcome form:
 
 1. Select **Done**.
 
-## Exercise 8 – Edit Project Outcome form
+## Exercise 8: Edit Project Outcome form
 
 In this exercise, you will configure the default form for the Project Outcome table.
 
-### Task 8.1 – Configure main form
+### Task 8.1: Configure main form
 
 In this task, you will perform the following changes to the Project Outcome form:
 
@@ -643,11 +643,11 @@ In this task, you will perform the following changes to the Project Outcome form
 
 1. Select **Done**.
 
-## Exercise 9 – Copy Outcome form
+## Exercise 9: Copy Outcome form
 
 In this exercise, you will be copying a form and implementing security on forms.
 
-### Task 9.1 – Copy Outcome form
+### Task 9.1: Copy Outcome form
 
 In this task, you will perform the following changes to the form:
 
@@ -760,17 +760,17 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Save and publish**.
 
-### Task 9.2 – Publish changes
+### Task 9.2: Publish changes
 
 1. In the **Objects** pane on the left, select **All**.
 
 1. Select **Publish all customizations**.
 
-## Exercise 10 – Modify model-driven apps
+## Exercise 10: Modify model-driven apps
 
 In this exercise, you will be adding the tables and forms to the Fabrikam model-driven apps.
 
-### Task 10.1 – Environmental Management app
+### Task 10.1: Environmental Management app
 
 In this task, you will perform the following changes to the app:
 
@@ -831,7 +831,7 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Done**.
 
-### Task 10.2 – Environmental Project Delivery app
+### Task 10.2: Environmental Project Delivery app
 
 In this task, you will perform the following changes to the app:
 
@@ -868,3 +868,5 @@ In this task, you will perform the following changes to the app:
 
 ### Review
 In this lab, you edited project forms, program form, program funding form, region form, milestone form, outcome form and project outcome form, created a quick create form, copied outcome form and modified model-driven apps.
+
+![](../media/pl200-gs-nextpage.png)

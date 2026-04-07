@@ -5,9 +5,13 @@ You are a Power Platform functional consultant working with the Contoso team. Yo
 
 This lab will take approximately **30** minutes to complete. 
 
+## Lab Objectives
+
++ Exercise 1: Create Canvas App from Milestones Table
+
 ## Exercise 1: Create Canvas App from Milestones Table
 
-### Task 1: Create Canvas App
+### Task 1.1: Create Canvas App
 1. Navigate to `https://make.powerapps.com`.
 2. Ensure you are in the **PL Development** environment.
 3. In the Maker Studio, select **Apps**.
@@ -31,7 +35,7 @@ This lab will take approximately **30** minutes to complete.
 
       ![](../media/pl200-p19t1p4.png)
 
-### Task 2: Configure Gallery
+### Task 1.2: Configure Gallery
 1. Expand **ScreenContainer1 (1)**.
 2. Expand **BodyContainer1 (2)**.
 3. Expand **SidebarContainer1 (3)**.
@@ -51,7 +55,7 @@ This lab will take approximately **30** minutes to complete.
 
       ![](../media/pl200-p19t2p2.png)
 
-### Task 3: Configure Form
+### Task 1.3: Configure Form
 1. Expand **BodyContainer1 (1)**.
 2. Expand **RightContainer1 (2)**.
 3. Expand **MainContainer1 (3)**.
@@ -84,3 +88,8 @@ This lab will take approximately **30** minutes to complete.
 15. Select **Publish this version**.
 
       ![](../media/pl200-p19t3p5.png)
+
+## Review
+
+
+![](../media/pl200-gs-nextpage.png)

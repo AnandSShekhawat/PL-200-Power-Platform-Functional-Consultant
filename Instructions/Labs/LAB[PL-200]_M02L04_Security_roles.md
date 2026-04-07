@@ -1,4 +1,4 @@
-# Lab 2.4: Security roles
+# Lab 2.1: Security roles
 
 ## Scenario
 
@@ -25,11 +25,11 @@ In this lab, you will perform:
 + Exercise 1: Modify the Environmental user security role
 + Exercise 2: Export managed and unmanaged solution; import managed solution.
   
-## Exercise 1 – Modify the Environmental user security role
+## Exercise 1: Modify the Environmental user security role
 
-### Task 1.1 – Evaluate security role
+### Task 1.1: Evaluate security role
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **PL Development** environment.
 
@@ -57,7 +57,7 @@ In this lab, you will perform:
 
 1. Review the privileges the security role has for the tables in the Fabrikam solution. Do not navigate away from this page.
 
-### Task 1.2 – Modify Milestone and Outcome privileges
+### Task 1.2: Modify Milestone and Outcome privileges
 
 1. In the **Custom Entities** tab for the **Environmental user** role, locate the **Milestone** table privileges.
 
@@ -73,7 +73,7 @@ In this lab, you will perform:
 
     ![](../media/pl200-p10t2p2.png)
 
-### Task 1.3 – Add privileges for Project Outcome
+### Task 1.3: Add privileges for Project Outcome
 
 1. In the **Custom Tables** section for the **Environmental user** role, locate the **Project Outcome** table privileges.
 
@@ -93,7 +93,7 @@ In this lab, you will perform:
 
     ![](../media/pl200-p10t2p5.png)
 
-### Task 1.4 – Modify standard table privileges
+### Task 1.4: Modify standard table privileges
 
 1. Enter `data` in the **Search by table name or table privilege** field.
 
@@ -147,7 +147,7 @@ In this lab, you will perform:
 
 1. Select **Save**. Do not navigate away from this page.
 
-### Task 1.5 – Modify miscellaneous privileges
+### Task 1.5: Modify miscellaneous privileges
 
 1. Select the **Miscellaneous privileges (1)** tab.
 
@@ -171,7 +171,7 @@ In this lab, you will perform:
 
 1. Select **Save**. Do not navigate away from this page.
 
-### Task 1.6 – Modify privacy privileges
+### Task 1.6: Modify privacy privileges
 
 1. Select the **Privacy-related privileges (1)** tab.
 
@@ -193,13 +193,13 @@ In this lab, you will perform:
 
     ![](../media/pl200-p10t2p10.png)
 
-## Exercise 2 – Solutions
+## Exercise 2: Solutions
 
 In this exercise, you will export the solution from the Development environment and import it into the Production environment.
 
-### Task 2.1 – Export managed solution
+### Task 2.1: Export managed solution
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`.
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -227,7 +227,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background, when the solution is ready select the **Download** button.
 
-### Task 2.2 – Export unmanaged solution
+### Task 2.2: Export unmanaged solution
 
 1. Select the **Fabrikam Environmental** solution.
 
@@ -243,7 +243,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. The export will be prepared in the background, when the solution is ready select the **Download** button.
 
-### Task 2.3 – Import managed solution
+### Task 2.3: Import managed solution
 
 1. Switch environments by using the Environment Selector in the upper right corner of the Maker portal.
 
@@ -271,3 +271,5 @@ In this exercise, you will export the solution from the Development environment 
 
 ### Review
 In this lab, you modified the environmental user security role, exported managed and unmanaged solution; imported managed solution.
+
+![](../media/pl200-gs-nextpage.png)

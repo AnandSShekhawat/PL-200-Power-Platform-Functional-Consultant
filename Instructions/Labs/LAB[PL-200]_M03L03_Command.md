@@ -1,4 +1,4 @@
-# Lab 3.3 – Command bar
+# Lab 3.3: Command bar
 
 ## Scenario
 
@@ -10,11 +10,17 @@ You will be adding a command button to the project outcome form in the Environen
 
 This lab will take approximately **45** minutes to complete. 
 
-## Exercise 1 – Add command button
+## Lab objectives
+In this lab, you will perform:
+
+- Exercise 1: Add command button
+- 
+
+## Exercise 1: Add command button
 
 In this exercise, you will configure the default form for the Project Outcome table.
 
-### Task 1.1 – Add command button to main form
+### Task 1.1: Add command button to main form
 
 In this task, you will perform the following changes to the Project Outcome form:
 
@@ -81,3 +87,7 @@ In this task, you will perform the following changes to the Project Outcome form
 1.  In the **Environmental Project Delivery** app, select **Save and publish.**
 
 1. **Close** the app designer.
+
+## Review
+
+![](../media/pl200-gs-nextpage.png)

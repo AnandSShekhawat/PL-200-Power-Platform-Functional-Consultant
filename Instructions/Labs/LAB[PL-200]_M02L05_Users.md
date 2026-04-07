@@ -1,4 +1,4 @@
-# Lab 2.5: Users and Teams
+# Lab 2.2: Users and Teams
 
 ## Scenario
 
@@ -17,11 +17,11 @@ In this lab, you will:
 
 + Exercise 1: Add users to your environment
 + Exercise 2: Create a team
-+ Exercise 3: Add user and team to column security profile
++ Exercise 3: Column security profile
   
-## Exercise 1 – Add users to your environment
+## Exercise 1: Add users to your environment
 
-### Task 1.1 – Create Users
+### Task 1.1: Create Users
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
@@ -85,9 +85,9 @@ In this lab, you will:
 
     ![](../media/pl200-p11t1p8.png)
 
-## Exercise 2 – Create a team
+## Exercise 2: Create a team
 
-### Task 2.1 – Create Team
+### Task 2.1: Create Team
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
@@ -111,7 +111,7 @@ In this lab, you will:
 
 1. Enter `org` and select the root business unit **(2)**.
 
-1. Enter `ODL_user` in **Administrator** and select **ODL_User <inject key="DeploymentID"></inject> (3)**.
+1. Enter `ODL_user` in **Administrator** and select **ODL_User<inject key="DeploymentID"></inject> (3)**.
 
 1. Select **Owner** **(4)** in the **Team type** drop-down.
 
@@ -133,11 +133,11 @@ In this lab, you will:
 
     ![](../media/pl200-p11t2p5.png)
 
-## Exercise 3 – Column security profile
+## Exercise 3: Column security profile
 
-### Task 3.1 – Add user to column security profile
+### Task 3.1: Add user to column security profile
 
-1. Navigate to the Power Platform admin center `https://admin.powerplatform.microsoft.com`.
+1. Navigate to the Power Platform admin center `https://admin.powerplatform.microsoft.com`
 
 1. Select **Manage** and then **Environments** from the left navigation pane.
 
@@ -166,7 +166,7 @@ In this lab, you will:
 1. Select **Add**.
 
 
-### Task 3.2 – Add team to column security profile
+### Task 3.2: Add team to column security profile
 
 1. Select **Column Security Profiles** in the breadcrumb at the top of the screen.
 
@@ -196,3 +196,5 @@ In this lab, you will:
 
 ### Review
 In this lab, you added users to your environment, created a team and also added teams and users to column security profile.
+
+![](../media/pl200-gs-nextpage.png)

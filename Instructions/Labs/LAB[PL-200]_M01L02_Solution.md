@@ -10,11 +10,11 @@ In this lab, you will perform:
 + Exercise 1: Create publisher and solution
 + Exercise 2: Add components to the solution
 
-## Exercise 1 - Create publisher and solution
+## Exercise 1: Create publisher and solution
 
 In this exercise, you will access the Power Apps maker portal, the Development environment and create a new solution.
 
-### Task 1.1 – Maker portal
+### Task 1.1: Maker portal
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com` and sign in with your Microsoft 365 credentials given below if prompted again.
 
@@ -40,7 +40,7 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 
     ![](../media/pl200-p4t1p4.png)
 
-### Task 1.2 – Create solution and publisher
+### Task 1.2: Create solution and publisher
 
 1. Select **Solutions** from the left navigation pane. You should see several solutions including the Default Solution and the Common Data Services Default Solution.
   
@@ -74,11 +74,11 @@ In this exercise, you will access the Power Apps maker portal, the Development e
 
     ![](../media/pl200-p4t2p5.png)
 
-## Exercise 2 - Add components to the solution
+## Exercise 2: Add components to the solution
 
 In this exercise, you will add an existing table to the solution.
 
-### Task 2.1 – Add table
+### Task 2.1: Add table
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -122,3 +122,5 @@ In this exercise, you will add an existing table to the solution.
 
 ### Review
 In this lab, you created publisher and solution and also added components to the solution.
+
+![](../media/pl200-gs-nextpage.png)

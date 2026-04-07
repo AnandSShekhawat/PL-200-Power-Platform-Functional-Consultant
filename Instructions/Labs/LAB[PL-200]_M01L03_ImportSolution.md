@@ -15,13 +15,12 @@ The solutions contain:
 - Microsoft Dataverse data model
 - Security roles
 - Business rules
-- Classic workflows
+- Dataverse classic workflows
 - Model-driven apps
 - Charts and dashboards
 - Canvas app
-- Cloud flows
+- Power Automate cloud flows
 - Business process flows
-- Power Virtual Agents chatbot
 
 In this lab, you will import the developed solutions and data.
 
@@ -30,13 +29,12 @@ In this lab, you will perform:
 
 + Exercise 1: Import Fabrikam solutions
 + Exercise 2: Import data
-+ Exercise 3: Sign up for Power Pages
 
-## Exercise 1 - Import Fabrikam solutions
+## Exercise 1: Import Fabrikam solutions
 
 In this exercise, you will import the main solution into the **Development** environment.
 
-### Task 1.1 – Main solution
+### Task 1.1: Main solution
 
 1.  Navigate to `https://make.powerapps.com`
 
@@ -82,7 +80,7 @@ In this exercise, you will import the main solution into the **Development** env
 
      ![](../media/pl200-p5t1p11.png)
 
-## Task 1.2 - Set preferred solution
+## Task 1.2: Set preferred solution
 
 1.  Navigate to `https://make.powerapps.com`
 
@@ -96,7 +94,7 @@ In this exercise, you will import the main solution into the **Development** env
 
      ![](../media/pl200-p5t1p13.png)
 
-## Exercise 2 - Import data
+## Exercise 2: Import data
 
 In this exercise, you will import data the into the **PL Environment** environment using the Configuration Migration Tool and import Outcome rows into your Microsoft Dataverse environment using a dataflow.
 
@@ -122,7 +120,7 @@ In this exercise, you will import data the into the **PL Environment** environme
 
     ![](../media/pl200-p5t2p4.png)
 
-### Task 2.2 - Import data with the Configuration Migration Tool
+### Task 2.2: Import data with the Configuration Migration Tool
 
 1. Open the **AzureCreds (1)** file from the desktop and note the **username and password (2)**, as you will need them in the subsequent steps.
 
@@ -169,7 +167,7 @@ In this exercise, you will import data the into the **PL Environment** environme
 
 1.  Select the **X** to close the Configuration Migration Tool.
 
-### Task 2.3 – Load Outcome Excel file to OneDrive
+### Task 2.3: Load Outcome Excel file to OneDrive
 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -185,7 +183,7 @@ In this exercise, you will import data the into the **PL Environment** environme
      
      ![](../media/pl200-p5t2p12.png)
 
-### Task 2.4 – Create a dataflow to import Outcomes
+### Task 2.4: Create a dataflow to import Outcomes
 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -255,7 +253,7 @@ In this exercise, you will import data the into the **PL Environment** environme
 
 1.  Select **Publish**.
 
-### Task 2.5 – Test Your work
+### Task 2.5: Test Your work
 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -295,3 +293,5 @@ In this exercise, you will import data the into the **PL Environment** environme
 
 ### Review
 In this lab, you imported Fabrikam solutions, imported data and signed up for power pages.
+
+![](../media/pl200-gs-nextpage.png)

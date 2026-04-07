@@ -1,4 +1,4 @@
-# Lab 2.1: Business rules
+# Lab 7.1: Business rules
 
 ## Scenario
 
@@ -6,15 +6,15 @@ You are a Power Platform functional consultant and have been assigned to the Fab
 
 In this practice lab, you will be creating business rules to show and hide the lookup columns in the model-driven app form for the Resource table and to set the status of Milestone rows to completed when the percentage complete is 100%.
 
-## Lab objectives
+## Lab Objectives
 In this lab, you will perform:
 
-+ Task 1: Create Resource business rules
++ Exercise 1: Create business rules
 + Task 2: Create Milestone business rules
   
-## Exercise 1 – Create business rules
+## Exercise 1: Create business rules
 
-### Task 1.1 – Create Resource business rules
+### Task 1.1: Create Resource business rules
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -181,7 +181,7 @@ In this lab, you will perform:
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Task 1.2 – Create Milestone business rules
+### Task 1.2: Create Milestone business rules
 
 1. In the **Objects** pane on the left, select the **Milestone** table.
 
@@ -242,10 +242,7 @@ In this lab, you will perform:
 
 1. Select **Done**.
 
-
-## Challenge (Optional)
-
-Edit the **Set Resource Name** business rule on the **Resource** table to hide both lookup columns if resource type is not selected and set as not business required.
-
 ### Review
 In this lab, you created resource and milestone business rules.
+
+![](../media/pl200-gs-nextpage.png)

@@ -15,12 +15,12 @@ In this lab, you will perform:
 + Exercise 4: Add a Choice column
 + Exercise 5: Create columns on the Project Outcome table
 
-## Exercise 1 – Modify and add columns on the Project table
+## Exercise 1: Modify and add columns on the Project table
 
 In this exercise, you will be changing properties on existing columns on the Project table in the Fabrikam Environmental solution, creating new columns, and adding an alternate key.
 
 
-### Task 1.1 – Modify properties on existing columns
+### Task 1.1: Modify properties on existing columns
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -81,7 +81,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 1. Select **Save**.
 
 
-### Task 1.2 – Create an auto number column
+### Task 1.2: Create an auto number column
 
 1. Select **+ New column**.
 
@@ -99,13 +99,13 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
     ![Project table properties.](../media/pl200-p7t1p5.png)
 
-## Exercise 2 – Modify and add columns on the Project Funding table
+## Exercise 2: Modify and add columns on the Project Funding table
 
 In this exercise, you will be changing properties on existing columns on the Project Funding table in the Fabrikam Environmental solution and adding a new column.
 
-### Task 2.1 – Modify value range on an existing column
+### Task 2.1: Modify value range on an existing column
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **PL Development** environment.
 
@@ -130,7 +130,7 @@ In this exercise, you will be changing properties on existing columns on the Pro
 1. Select **Save**.
 
 
-### Task 2.2 – Create a currency column
+### Task 2.2: Create a currency column
 
 1. Select **+ New column**.
 
@@ -148,11 +148,11 @@ In this exercise, you will be changing properties on existing columns on the Pro
 
 1. Select **Save**.
 
-## Exercise 3 – Modify a lookup column on the Milestone table
+## Exercise 3: Modify a lookup column on the Milestone table
 
 In this exercise, you will be changing properties on a lookup column on the Milestone table in the Fabrikam Environmental solution. Lookup columns when created by a relationship do not have auditing enabled by default.
 
-### Task 3.1 – Modify audit on lookup column
+### Task 3.1: Modify audit on lookup column
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -178,13 +178,13 @@ In this exercise, you will be changing properties on a lookup column on the Mile
 
 1. Select **Save**.
 
-## Exercise 4 – Add a choice column
+## Exercise 4: Add a choice column
 
 In this exercise, you will be creating a choice column to replace the use of status reasons on the Milestone and Outcome tables.
 
 > **Note:** Status reasons cannot be changed in an editable grid.
 
-### Task 4.1 – Create choice
+### Task 4.1: Create choice
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -224,7 +224,7 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
     ![Choice column.](../media/pl200-p7t4p2.png)
 
-### Task 4.2 – Add choice to Milestone table
+### Task 4.2: Add choice to Milestone table
 
 1. In the **Objects** pane on the left, expand **Tables**.
 
@@ -244,7 +244,7 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
 1. Select **Save**.
 
-### Task 4.3 – Add choice to Outcome table
+### Task 4.3: Add choice to Outcome table
 
 1. In the **Objects** pane on the left, expand **Tables**.
 
@@ -266,11 +266,11 @@ In this exercise, you will be creating a choice column to replace the use of sta
 
     ![Choice column.](../media/pl200-p7t4p3.png)
 
-## Exercise 5 – Create columns on the Project Outcome table
+## Exercise 5: Create columns on the Project Outcome table
 
 In this exercise, you will be creating columns on the Project Outcome custom table that you created in an earlier lab.
 
-### Task 5.1 – Create columns
+### Task 5.1: Create columns
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -316,7 +316,7 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
     ![Add connection role.](../media/pl200-p8t8p8.png)
 
-### Task 5.2 – Publish changes
+### Task 5.2: Publish changes
 
 1. In the solution select the **Overview (1)** page.
 
@@ -326,3 +326,5 @@ In this exercise, you will be creating columns on the Project Outcome custom tab
 
 ### Review
 In this lab, you modified and added columns on the project and project funding table, modified a lookup coloumn on the milestone table, added a choice coloumn and created coloumns on the project outcome table.
+
+![](../media/pl200-gs-nextpage.png)

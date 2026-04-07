@@ -9,20 +9,20 @@ In this practice lab, you will be modifying the views for the Fabrikam Environme
 ## Lab objectives
 In this lab, you will perform:
 
-+ Exercise 1: Make changes to the views for the Project table
-+ Exercise 2: Make changes to the views for the Project Funding table
-+ Exercise 3: Make changes to the views for the Outcome table
-+ Exercise 4: Make changes to the views for the Milestone table
-+ Exercise 5: Make changes to the views for the Project Outcome table
-+ Exercise 6: Make changes to a sub-grid
++ Exercise 1: Project views
++ Exercise 2: Project Funding views
++ Exercise 3: Outcome views
++ Exercise 4: Milestone views
++ Exercise 5: Project Outcome views
++ Exercise 6: Editable grid
 + Exercise 7: Modify model-driven apps
 + Exercise 8: Enable Dataverse Search
 
-## Exercise 1 – Project views
+## Exercise 1: Project views
 
 In this exercise, you will make changes to the views for the Project table.
 
-### Task 1.1 – Modify the Project public view
+### Task 1.1: Modify the Project public view
 
 In this task, you will perform the following changes to the form:
 
@@ -54,7 +54,7 @@ In this task, you will perform the following changes to the form:
 
 1. On the **Save and publish** drop-down menu, select **Save only**. Do not navigate away from this page.
 
-### Task 1.2 – Create new completed projects view
+### Task 1.2: Create new completed projects view
 
 In this task, you will perform the following changes to the form:
 
@@ -86,11 +86,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 2 – Project Funding views
+## Exercise 2: Project Funding views
 
 In this exercise, you will make changes to the views for the Project Funding table.
 
-### Task 2.1 – Modify the Project Funding public view
+### Task 2.1: Modify the Project Funding public view
 
 In this task, you will perform the following changes to the form:
 
@@ -122,11 +122,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 3 – Outcome views
+## Exercise 3: Outcome views
 
 In this exercise, you will make changes to the views for the Outcome table.
 
-### Task 3.1 – Modify the Active Outcomes public view
+### Task 3.1: Modify the Active Outcomes public view
 
 In this task, you will perform the following changes to the form:
 
@@ -161,7 +161,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-### Task 3.2 – Modify the Outcome lookup view
+### Task 3.2: Modify the Outcome lookup view
 
 In this task, you will perform the following changes to the form:
 
@@ -183,7 +183,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-### Task 3.3 – Modify the Outcome Quick Find view
+### Task 3.3: Modify the Outcome Quick Find view
 
 In this task, you will perform the following changes to the form:
 
@@ -217,11 +217,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 4 – Milestone views
+## Exercise 4: Milestone views
 
 In this exercise, you will make changes to the views for the Milestone table.
 
-### Task 4.1 – Modify the Active Milestones public view
+### Task 4.1: Modify the Active Milestones public view
 
 In this task, you will perform the following changes to the form:
 
@@ -258,7 +258,7 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-### Task 4.2 – Modify the My Pending Milestones public view
+### Task 4.2: Modify the My Pending Milestones public view
 
 In this task, you will perform the following changes to the form:
 
@@ -291,7 +291,7 @@ In this task, you will perform the following changes to the form:
 1. Select **Done**.
 
 
-### Task 4.3 – Modify the Milestones SubGrid view
+### Task 4.3: Modify the Milestones SubGrid view
 
 In this task, you will perform the following changes to the form:
 
@@ -315,11 +315,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 5 – Project Outcome views
+## Exercise 5: Project Outcome views
 
 In this exercise, you will make changes to the views for the Project Outcome table.
 
-### Task 5.1 – Modify the Active Project Outcomes public view
+### Task 5.1: Modify the Active Project Outcomes public view
 
 In this task, you will perform the following changes to the form:
 
@@ -363,21 +363,21 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-### Task 5.2 – Publish changes
+### Task 5.2: Publish changes
 
 1. In the  **Objects** pane on the left, select **All**.
 
 1. Select **Publish all customizations**.
 
-## Exercise 6 – Editable grid
+## Exercise 6: Editable grid
 
 In this exercise, you will make changes to a sub-grid in the main form for the Project table to make it editable.
 
-### Task 6.1 – Modify the Project main form
+### Task 6.1: Modify the Project main form
 
 In this task, you will perform the following changes to the form:
 
-- change the Milestone sub-grid to be an editable grid
+- Change the Milestone sub-grid to be an editable grid
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -429,11 +429,11 @@ In this task, you will perform the following changes to the form:
 
 1. Select **Done**.
 
-## Exercise 7 – Modify model-driven apps
+## Exercise 7: Modify model-driven apps
 
 In this exercise, you will be restricting views in model-driven apps.
 
-### Task 7.1 – Environmental Project Delivery app
+### Task 7.1: Environmental Project Delivery app
 
 In this task, you will perform the following changes to the app:
 
@@ -487,13 +487,13 @@ In this task, you will perform the following changes to the app:
 
 1. Select **Done**.
 
-## Exercise 8 – Enable Dataverse Search
+## Exercise 8: Enable Dataverse Search
 
 In this exercise, you will enable Dataverse search for your environment.
 
 The find columns on the quick find views define the searchable fields in the Dataverse search index.
 
-### Task 8.1 – Search settings
+### Task 8.1: Search settings
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
@@ -513,7 +513,7 @@ The find columns on the quick find views define the searchable fields in the Dat
 
 1. Select **Save** at the bottom.
 
-### Task 8.2 – Search index
+### Task 8.2: Search index
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -539,9 +539,11 @@ The find columns on the quick find views define the searchable fields in the Dat
 
     ![](../media/pl200-p16t8p3.png)
 
-### Task 8.3 – Publish changes
+### Task 8.3: Publish changes
 
 1. Select **Publish all customizations**.
 
 ### Review
 In this lab, you made changes to the views for project table, project funding table, outcome table, milestone table and project outcome table. Also, made changes to a sub-grid, modified model-driven apps and enabled dataverse search.
+
+![](../media/pl200-gs-nextpage.png)
