@@ -43,7 +43,7 @@ In this exercise, you will provision a Power Pages site using a starter template
 
     ![](../media/pl200-p21t1p3.png)
 
-    >**Note:**The portal site will deploy. It can take a while for your site to fully deploy.
+    >**Note:** The portal site will deploy. It can take a while for your site to fully deploy.
 
 1. Wait for the site to be deployed.
 

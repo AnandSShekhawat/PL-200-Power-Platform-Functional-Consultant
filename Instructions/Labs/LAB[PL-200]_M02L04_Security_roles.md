@@ -223,7 +223,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Export (3)**.
 
-    ![](../media/pl200-p10t2p12.png)
+    ![](../media/pl200-p10t2p13.png)
 
 1. The export will be prepared in the background, when the solution is ready select the **Download** button.
 
@@ -265,7 +265,7 @@ In this exercise, you will export the solution from the Development environment 
 
 1. Select **Next (3)**, and then select **Next** again.
 
-    ![](../media/pl200-p10t2p13.png)
+    ![](../media/pl200-p10t2p14.png)
 
 1. Select **Import**. The solution will import in the background.
 

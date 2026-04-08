@@ -15,13 +15,45 @@ You will add the users and team to column security profiles.
 ## Lab objectives
 In this lab, you will:
 
-+ Exercise 1: Add users to your environment
-+ Exercise 2: Create a team
-+ Exercise 3: Column security profile
-  
-## Exercise 1: Add users to your environment
++ Exercise 1: Assign License to the users
++ Exercise 2: Add users to your environment
++ Exercise 3: Create a team
++ Exercise 4: Column security profile
 
-### Task 1.1: Create Users
+## Exercise 1: Assign License to the users
+
+In this exercise, you'll assign license to the following user through the Microsoft 365 admin center.
+
+### Task 1.1: Assign license to users
+
+1. Navigate to the Microsoft 365 admin center using the following URL: `https://admin.cloud.microsoft`
+
+1. If prompted, sign in using the following credentials:
+
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+1. From the left navigation pane, select **Users (1)** and then select **Active users (2)**.
+
+    ![](../media/pl200-p2t2p1.png)
+
+1. From the list of Active users, select **Alex Wilber (1)**. In the **Alex Wilber** pane on the right, select the **Licenses and apps (2)** tab and then check the box next to **Microsoft Power Apps for Developer (3)** and then select **Save changes (4)**. 
+
+    ![](../media/pl200-p2t2p2.png)
+
+1. Now close the pane using the **X** icon on the top right.
+
+    ![](../media/pl200-p2t2p3.png)
+
+1. Now perform the **step 3 and 4** for the following users as well to assign them **Microsoft Power Apps for Developer** license :
+
+    - **Megan Brown**
+    - **Patti Fernandez**
+
+## Exercise 2: Add users to your environment
+
+### Task 2.1: Create Users
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
@@ -85,9 +117,9 @@ In this lab, you will:
 
     ![](../media/pl200-p11t1p8.png)
 
-## Exercise 2: Create a team
+## Exercise 3: Create a team
 
-### Task 2.1: Create Team
+### Task 3.1: Create Team
 
 1. Navigate to the Power Platform admin center `https://aka.ms/ppac`
 
@@ -133,9 +165,9 @@ In this lab, you will:
 
     ![](../media/pl200-p11t2p5.png)
 
-## Exercise 3: Column security profile
+## Exercise 4: Column security profile
 
-### Task 3.1: Add user to column security profile
+### Task 4.1: Add user to column security profile
 
 1. Navigate to the Power Platform admin center `https://admin.powerplatform.microsoft.com`
 
@@ -166,7 +198,7 @@ In this lab, you will:
 1. Select **Add**.
 
 
-### Task 3.2: Add team to column security profile
+### Task 4.2: Add team to column security profile
 
 1. Select **Column Security Profiles** in the breadcrumb at the top of the screen.
 
@@ -195,7 +227,7 @@ In this lab, you will:
     ![](../media/pl200-p11t3p6.png)
 
 ## Review
-In this lab, you added users to the environment and assigned appropriate security roles. You created a team, added members, and assigned roles to the team. Additionally, you configured column security profiles by assigning users and teams to control access to sensitive data. Great work!
+In this lab, you assigned license to the users, added users to the environment and assigned appropriate security roles. You created a team, added members, and assigned roles to the team. Additionally, you configured column security profiles by assigning users and teams to control access to sensitive data. Great work!
 
 ### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 

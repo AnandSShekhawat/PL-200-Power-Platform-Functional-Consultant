@@ -9,7 +9,7 @@ If you are being provided with a tenant as a part of an instructor-led training 
 In this lab, you will perform:
 
 + Exercise 1: Access Microsoft Power Platform
-+ Exercise 2: Assign License to the users
+
   
 ## Exercise 1: Access Microsoft Power Platform
 
@@ -27,13 +27,13 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
     
-     ![](../media/pl200-p2t1p2.png)
+        ![](../media/pl200-p2t1p2.png)
 
 1. Enter the following password and click **Sign in**:
 
    - **Password:** <inject key="AzureAdUserPassword"></inject>
     
-     ![](../media/pl200-p2t1p3.png)
+        ![](../media/pl200-p2t1p3.png)
 
 1.  Select **Yes** to stay signed in.
 
@@ -47,39 +47,9 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
     ![](../media/pl200-p2t1p6.png)
 
-## Exercise 2: Assign License to the users
-
-In this exercise, you'll assign license to the following user through the Microsoft 365 admin center.
-
-### Task 2.1: Assign license to users
-
-1. Navigate to the Microsoft 365 admin center using the following URL: `https://admin.cloud.microsoft`
-
-1. If prompted, sign in using the following credentials:
-
-    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
-
-    - **Password:** <inject key="AzureAdUserPassword"></inject>
-
-1. From the left navigation pane, select **Users (1)** and then select **Active users (2)**.
-
-    ![](../media/pl200-p2t2p1.png)
-
-1. From the list of Active users, select **Alex Wilber (1)**. In the **Alex Wilber** pane on the right, select the **Licenses and apps (2)** tab and then check the box next to **Microsoft Power Apps for Developer (3)** and then select **Save changes (4)**. 
-
-    ![](../media/pl200-p2t2p2.png)
-
-1. Now close the pane using the **X** icon on the top right.
-
-    ![](../media/pl200-p2t2p3.png)
-
-1. Now perform the **step 3 and 4** for the following users as well to assign them **Microsoft Power Apps for Developer** license :
-
-    - **Megan Brown**
-    - **Patti Fernandez**
 
 ## Review
-In this lab, you validated the lab environment by accessing the Power Platform, activating a trial, and verifying environment settings. You also assigned Power Apps licenses to users through the Microsoft 365 admin center, ensuring all users have the required access to perform the labs successfully. Great work!
+In this lab, you validated the lab environment by accessing the Power Platform, and verifying environment settings. Great work!
 
 ### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
